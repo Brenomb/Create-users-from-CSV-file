@@ -1,0 +1,14 @@
+C:\TeamSystem Software\Repo\Create users from CSV file\bin\Debug\net9.0\Create users from CSV file.exe
+C:\TeamSystem Software\Repo\Create users from CSV file\bin\Debug\net9.0\Create users from CSV file.deps.json
+C:\TeamSystem Software\Repo\Create users from CSV file\bin\Debug\net9.0\Create users from CSV file.runtimeconfig.json
+C:\TeamSystem Software\Repo\Create users from CSV file\bin\Debug\net9.0\Create users from CSV file.dll
+C:\TeamSystem Software\Repo\Create users from CSV file\bin\Debug\net9.0\Create users from CSV file.pdb
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.GeneratedMSBuildEditorConfig.editorconfig
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.AssemblyInfoInputs.cache
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.AssemblyInfo.cs
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.csproj.CoreCompileInputs.cache
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.dll
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\refint\Create users from CSV file.dll
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.pdb
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.genruntimeconfig.cache
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\ref\Create users from CSV file.dll

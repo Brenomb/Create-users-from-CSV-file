@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Create users from CSV file/1.0.0": {
+        "runtime": {
+          "Create users from CSV file.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Create users from CSV file/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
