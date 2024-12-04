@@ -12,3 +12,4 @@ C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\refint\C
 C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.pdb
 C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.genruntimeconfig.cache
 C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\ref\Create users from CSV file.dll
+C:\TeamSystem Software\Repo\Create users from CSV file\obj\Debug\net9.0\Create users from CSV file.sourcelink.json

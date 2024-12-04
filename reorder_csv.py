@@ -8,7 +8,7 @@ def reorder_csv(input_file, output_file, desired_columns):
         df = pd.read_csv(input_file, delimiter=';')
 
         # Reorder and select desired columns
-        df = df[[desired_columns]]
+        df = df[desired_columns]
 
         # Write the reordered columns to the output file
         df.to_csv(output_file, index=False, sep=';')
