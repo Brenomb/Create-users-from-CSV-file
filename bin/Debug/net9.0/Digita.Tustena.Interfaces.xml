@@ -1,0 +1,2018 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Digita.Tustena.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:Digita.Tustena.Interfaces.CreateUpdatePropertyAttribute">
+            <summary>
+                Define if a property can be set in create/update processes
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.CustomJsonClassAttribute">
+            <summary>
+                Define class attribute for custom Newtonsoft serializazion
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Foundation.Requirements.IExtensionRequirements.FlattenHierarchyOfExtendedInterfaceProperties">
+            <summary>
+            Explore the interfaces extended by <see cref="P:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Foundation.Requirements.IExtensionRequirements.ExtendedInterface">ExtendedInterface</see>, and adds all the properties declared into them.
+            The system explicitly excludes the properties already defined by <see cref="P:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Foundation.Requirements.IExtensionRequirements.BaseInterface">BaseInterface</see>,
+            <see cref="T:Digita.Tustena.Interfaces.ICrmBusinessObjectsCommonProperties">ICrmBusinessObjectsCommonProperties</see>, <see cref="T:Digita.Tustena.Interfaces.ICrmBusinessObjects">ICrmBusinessObjects</see>.
+            Only the properties with the same prefix defined into <see cref="P:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Foundation.Requirements.IExtensionRequirements.ExtendedInterface">ExtendedInterface</see> are included. 
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Utils.ExtensionUtils.GetTypeSystemAssemblies(System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+                Gets the type system assemblies.
+            </summary>
+            <param name="includeStandard">if set to <c>true</c> [include standard].</param>
+            <param name="includeDigita">if set to <c>true</c> [include digita].</param>
+            <returns></returns>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Loaders.ExtensionsDiscoveryManager._log">
+            <summary>
+            Reference to the logger
+            </summary>
+        </member>
+        <member name="E:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Loaders.ExtensionsDiscoveryManager.DiscoverError">
+            <summary>
+                Occurs when DiscoverError.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Loaders.ExtensionsDiscoveryManager.OnDiscoverError(Digita.Utils.ExceptionEventArgs)">
+            <summary>
+                Raises the <see cref="E:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Loaders.ExtensionsDiscoveryManager.DiscoverError" /> event.
+            </summary>
+            <param name="args">The <see cref="T:Digita.Utils.ExceptionEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Loaders.ExtensionsDiscoveryManager.OnDiscoverWarning(System.Object,Digita.Utils.ExceptionEventArgs)">
+            <summary>
+                Raises the <see cref="E:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Loaders.ExtensionsDiscoveryManager.DiscoverError" /> event.
+            </summary>
+            <param name="args">The <see cref="T:Digita.Utils.ExceptionEventArgs" /> instance containing the event data.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.CrmBusinessObjectsExtension.Loaders.ExtensionsDiscoveryManager.Discover(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+                Gets the type system assemblies.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.ActivityIds">
+            <summary>
+            The id of linked activities in EXPENSEREPORT_CROSSACTIVITY table
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.ExpensePaymentMethodId">
+            <summary>
+            The type of payment cc/cash - ref to enum PaymentType
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.ExpenseDate">
+            <summary>
+            The date of the expense
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.ExpenseItemId">
+            <summary>
+            The payment type id - ref to enum CostType
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.Cost">
+            <summary>
+            The cost of the expense
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.Note">
+            <summary>
+            The expense row note
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.CcTotal">
+            <summary>
+            The day total of cc qty
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.CashTotal">
+            <summary>
+            The day total of cash qty
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.CashGrandTotal">
+            <summary>
+            The grand total of cash qty
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.CcGrandTotal">
+            <summary>
+            The grand total of cc qty
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.DocumentId">
+            <summary>
+            The Expense report linked document
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.Quantity">
+            <summary>
+            The quantity
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.UnitaryCost">
+            <summary>
+            The unitary cost
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.JobOrderId">
+            <summary>
+            The expense report linked joborder"
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.ExpenseVehicleId">
+            <summary>
+            The expense vehicle id"
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IExpenseReportBO.Status">
+            <summary>
+            The current status
+            </summary>        
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IListManager.RefreshAllCampaignOfTheList(Digita.Tustena.Interfaces.BusinessObjects.IChangeList)">
+            <summary>
+            Refreshes all campaign of the list.
+            </summary>
+            <param name="cl">The cl.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IListManager.RefreshChangelistOfSpecificCampaign(System.Int64,Digita.Tustena.Interfaces.BusinessObjects.IChangeList)">
+            <summary>
+            Refreshes the changelist of specific campaign.
+            </summary>
+            <param name="campId">The camp id.</param>
+            <param name="cl">The cl.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IListManager.AllElement(Digita.Tustena.Core.Enums.ListChanges)">
+            <summary>
+            Edit all the element with type change.
+            </summary>
+            <param name="typeOfGlobalChange">The typeofglobalchange.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IListManager.InsertElements(System.Collections.Generic.List{System.Int64},Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            Inserts the elements.
+            </summary>
+            <param name="al">The array list.</param>
+            <param name="bot">The business object type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IMailTemplateBO.Load">
+            <summary>
+            Load user or system default template
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IAnagraphicBO.AddSalesPerson(System.Int32)">
+            <summary>
+            Add the SalePerson in SalePersons int[]
+            </summary>
+            <param name="salePersonId"></param>
+            <returns>true if added, false is just exists</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IAnagraphicBO.ChangeSalesPerson(System.Int32)">
+            <summary>
+            Change the SalePerson in SalePersons
+            </summary>
+            <param name="salePersonId"></param>
+            <returns>true if changed, false whether exists</returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.ICallLogBO.DateStart">
+            <summary>
+            Call Start Set in UTC
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.ICallLogBO.DateEnd">
+            <summary>
+            Call End Set in UTC
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IChangeList.Add(System.Int64,Digita.Tustena.Core.Enums.ListChanges,Digita.Tustena.Core.Enums.BusinessObjectType,System.Int64,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String[]}})">
+            <summary>
+            Add items in the list with the specified params.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="change">The change.</param>
+            <param name="bt">The bt.</param>
+            <param name="listId">The listid.</param>
+            <param name="otherInfo">The otherinfo.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IChangeList.Add(System.Int64,Digita.Tustena.Core.Enums.ListChanges,Digita.Tustena.Core.Enums.BusinessObjectType,System.Int64)">
+            <summary>
+            Add items in the list with the specified params.
+            </summary>
+            <param name="id">The id.</param>
+            <param name="change">The change.</param>
+            <param name="bt">The bt.</param>
+            <param name="listId">The listid.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ICatalogProductPriceBO.GetPriceList(System.Int64,System.Int64,System.Decimal,System.Int64)">
+            <summary>
+            Return the final price for the product, company, listId, quantity specified
+            </summary>
+            <param name="listID"></param>
+            <param name="productId"></param>
+            <param name="qta"></param>
+            <param name="companyId"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IDirection.Distance">
+            <summary>
+            the travel distance in meters
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IDirection.Duration">
+            <summary>
+            The time of travel in seconds
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ILeadBO.ConvertLead(Digita.Tustena.Core.Enums.LeadConversionType,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="lct">if the LeadConversionType is ToContactLinketToCompany, this flag indicate the Company that will be linked</param>
+            <param name="companyIdToLink"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IMyBookMark.Delete(System.Int64[])">
+            <summary>
+            Deletes the specified ids.
+            </summary>
+            <param name="ids">The ids.</param>
+            <returns>False = Delete , True not delete</returns> 
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IReportBO.DataTypeCategory">
+            <summary>
+            indicates the group to which the report belongs: "base", "avanzato" and "database"
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IRollingStockBO.GetWarrantyExpireString(System.Int32)">
+            <summary>
+            this take from the businessObject the WarrantyType
+            </summary>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IRollingStockBO.GetWarrantyExpireString(System.Int32,Digita.Tustena.Core.Enums.WarrantyTypology)">
+            <summary>
+            If you want to calculate the expire from an custom type date
+            </summary>
+            <param name="val"></param>
+            <param name="wt"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.IStorageBO.FileToSaveByteArray">
+            <summary>
+            Da usare nel web Service
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IStorageBO.GetHash(System.IO.Stream)">
+            <summary>
+            Gets the hash for the specified stream.
+            </summary>
+            <param name="stream">Stream.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IStorageBO.GetHashBytes(System.IO.Stream)">
+            <summary>
+            Compute the MD5 hash for the specified stream.
+            </summary>
+            <param name="stream">stream to MD5</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ITicketTemplate.Delete(Digita.Tustena.Core.UserConfig,System.Int64[])">
+            <summary>
+            Delete ticket template
+            </summary>
+            <param name="uc"></param>
+            <param name="toInt64Array"></param>
+            <returns>False = deleted, True = not delete</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ITustenaDBColumn.GetLocalizedDisplayNameForLanguage(System.String)">
+            <summary>
+            Gets the localized DisplayName according to the given language
+            </summary>
+            <param name="lang">The language code</param>
+            <returns>The localized DisplayName according to the given language</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ITustenaDBColumn.GetLocalizedDefTextForLanguage(System.String)">
+            <summary>
+            Gets the localized DefText according to the given language
+            </summary>
+            <param name="lang">The language code</param>
+            <returns>The localized DefText according to the given language</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ITustenaDBColumn.GetLocalizedQuestionForLanguage(System.String)">
+            <summary>
+            Gets the localized Question according to the given language
+            </summary>
+            <param name="lang">The language code</param>
+            <returns>The localized Question according to the given language</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ITustenaDBColumn.MapCrossedColumnTypeToICrmBusinessObjects">
+            <summary>
+            Maps the current column type into its matching Type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjects.ITustenaDBDataItem.Values">
+            <summary>
+            Contains all the fields that are searchable by using the StructuredTustenaDBSearchEngine
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ITustenaDBDataItem.SetDataItemValue(System.String,System.String)">
+            <summary>
+            Stores the given string value in the Values dictionary at the specified 
+            fieldName key. The value may be converted to a different Type before storing
+            it in Values; in this case the current UC language is used for the conversion.
+            </summary>
+            <param name="fieldName">The key of the Values dictionary</param>
+            <param name="value">The value as string</param>
+            <returns>True if the value is correctly stored, otherwise false</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.ITustenaDBDataItem.SetDataItemValue(System.String,System.String,System.String)">
+            <summary>
+            Stores the given string value in the Values dictionary at the specified 
+            fieldName key. The value may be converted to a different Type before storing
+            it in Values; in this case the localizationLang language is used for the conversion.
+            </summary>
+            <param name="fieldName">The key of the Values dictionary</param>
+            <param name="value">The value as string</param>
+            <param name="localizationLang">The language to be used in eventual Type conversion</param>
+            <returns>True if the value is correctly stored, otherwise false</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IWorkRangeBO.CalculateEndDate(System.DateTime,System.Int64)">
+            <summary>
+            Calculate a TimeSpan starting with a Date adding duration minutes
+            using WorkRange slot configurations.
+            </summary>
+            <param name="fromDate">date from (in utc)</param>
+            <param name="duration">duration in minutes</param>
+            <returns>date time result in utc</returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BusinessObjects.IWorkRangeBO.CalculateMinuteInterval(System.DateTime,System.DateTime)">
+            <summary>
+            return minutes interval
+            </summary>
+            <param name="startDate">UTC Start Date</param>
+            <param name="endDate">UTC End Date</param>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.BusinessObjects.IApprovalConfigurationBO">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.IImageEmbedder.RootUserFilesPath">
+            <summary>
+            Gets the root user files path.
+            </summary>
+            <value>The root user files path.</value>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.IAccountHelperService.GetFreeLightAccount(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Get Avaliable Licence count for Light
+            </summary>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.IAccountHelperService.GetFreeAccount(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Get Avaliable Licence Account count
+            </summary>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.IAccountHelperService.GetAreaManagerSubAccount(Digita.Tustena.Core.UserConfig,System.Boolean)">
+            <summary>
+            Get all childs account of the UC
+            </summary>
+            <param name="uc"></param>
+            <param name="showOnlyActive">Default=false</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.IAccountHelperService.GetAreaManagerSubAccount(Digita.Tustena.Core.UserConfig,System.Int32,System.Boolean)">
+            <summary>
+            Get all childs account of the user id
+            </summary>
+            <param name="uc"></param>
+            <param name="userId"></param>
+            <param name="showOnlyActive">Default=false</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.IAccountHelperService.GetAreaManagerParentAccount(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Get all manager tree of the UC 
+            </summary>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.IAccountHelperService.GetAreaManagerParentAccount(Digita.Tustena.Core.UserConfig,System.Int32)">
+            <summary>
+            Get all manager tree of the userId
+            </summary>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.IAccountHelperService.GetGroupOfAccount(System.Int32)">
+            <summary>
+            Get the groupId of the uid
+            </summary>
+            <param name="uid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.ILockEntityService.LockRecord(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType,System.Int64)">
+            <summary>
+            Lock the record.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.ILockEntityService.LockPage(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.SecurityPageMenu)">
+            <summary>
+            
+            </summary>
+            <param name="pageSi"></param>
+            <param name="uid"></param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.ILockEntityService.HaveActiveLock(Digita.Tustena.Core.Enums.BusinessObjectType,System.Int64)">
+            <summary>
+            Have the active lock.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.ILockEntityService.IsLockedFrom(Digita.Tustena.Core.Enums.BusinessObjectType,System.Int64)">
+            <summary>
+            Determines whether is locked from the specified tableid.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.ILockEntityService.IsLockedPageFrom(Digita.Tustena.Core.Enums.SecurityPageMenu)">
+            <summary>
+                   
+            </summary>
+            <param name="tableid"></param>
+            <param name="rowid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.ILockEntityService.DeleteExpiredLock">
+            <summary>
+            Delete the expired lock.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Misc.ILockEntityService.ReleaseLock(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType,System.Int64)">
+            <summary>
+            Release the lock.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateItem.InjectPrintContentCss">
+            <summary>
+            Inject the content of file "css/PrintContent.css" inside template
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.AddTemplateProperty(Digita.Tustena.Interfaces.Print.ITemplateProperty)">
+            <summary>
+            Add a template property at runtime
+            </summary>
+            <param name="tp"></param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.RemoveTemplateProperty(Digita.Tustena.Interfaces.Print.ITemplateProperty)">
+            <summary>
+            remove a template property at runtime
+            </summary>
+            <param name="tp"></param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.RemoveTemplatePropertyByName(System.String)">
+            <summary>
+            remove templates properties that match argument name
+            </summary>
+            <param name="name">name of the templates to remove</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.WithDefaultTemplate``1(Digita.Tustena.Interfaces.Print.ITemplateItem)">
+            <summary>
+            Inject DefaultTemplate for TemplateProperty
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.WithDefaultTemplate(Digita.Tustena.Core.Enums.BusinessObjectType,Digita.Tustena.Interfaces.Print.ITemplateItem)">
+            <summary>
+            Inject DefaultTemplate for TemplateProperty
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.WithDefaultTemplate(System.String,Digita.Tustena.Interfaces.Print.ITemplateItem)">
+            <summary>
+            Inject DefaultTemplate for TemplateProperty
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.WithDefaultTemplate(Digita.Tustena.Interfaces.Print.ITemplateProperty,Digita.Tustena.Interfaces.Print.ITemplateItem)">
+            <summary>
+            Inject DefaultTemplate for TemplateProperty
+            </summary>
+            <param name="tp"></param>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.WithDefaultTemplate(Digita.Tustena.Interfaces.Print.ITemplateProperty,System.Func{Digita.Tustena.Interfaces.Print.ITemplateProperty,Digita.Tustena.Interfaces.Print.ITemplateItem})">
+            <summary>
+            Inject DefaultTemplate for TemplateProperty
+            </summary>
+            <param name="tp"></param>
+            <param name="func"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Properties(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            return all template properties
+            </summary>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Property``1(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            return first template property that match BusinessObjectType enum 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Property(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            return first template property that match BusinessObjectType enum 
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Property(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            return first template property tha match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Properties``1(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            return templates properties that match typeof(T)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Properties(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            return templates properties that match BusinessObjectType enum 
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Properties(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            return templates properties that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.TemplateOrDefault``1(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            return custom template properties that match typeof(T) or fallback to default template
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.TemplateOrDefault(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            return custom template properties that match BusinessObjectType in argument or fallback to default template
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.TemplateOrDefault(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            return custom template properties that match name in argument or fallback to default template
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.TemplateOrDefault(Digita.Tustena.Core.UserConfig,Digita.Tustena.Interfaces.Print.ITemplateProperty)">
+            <summary>
+            return custom template properties that match name in argument or fallback to default template
+            </summary>
+            <param name="uc"></param>
+            <param name="property"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Default``1(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            return custom template property that match typeof(T)
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Default(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            return custom template property that match BusinessObjectType in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Default(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            return custom template property that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Template``1(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            return custom template property that match typeof(T)
+            </summary>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Template(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            return custom template property that match BusinessObjectType in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Template(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            return custom template property that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Templates``1(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            return custom templates property that match typeof(T)
+            </summary>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Templates(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            return custom template properties that match BusinessObjectType in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.Templates(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            return custom template properties that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.SaveTemplate``1(Digita.Tustena.Core.UserConfig,System.Byte[],System.String)">
+            <summary>
+            save my template property that match typeof(T)
+            </summary>
+            <param name="uc"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.SaveTemplate(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType,System.Byte[],System.String)">
+            <summary>
+            save my template property that match BusinessObjectType in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.SaveTemplate(Digita.Tustena.Core.UserConfig,System.String,System.Byte[],System.String)">
+            <summary>
+            save my template property that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.SaveTemplate(Digita.Tustena.Core.UserConfig,Digita.Tustena.Interfaces.Print.ITemplateProperty,System.Byte[],System.String)">
+            <summary>
+            save my template property that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="prop"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.DeleteTemplate``1(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            delete my template property that match typeof(T)
+            </summary>
+            <param name="uc"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.DeleteTemplate(Digita.Tustena.Core.UserConfig,Digita.Tustena.Core.Enums.BusinessObjectType,System.String)">
+            <summary>
+            delete my template property that match BusinessObjectType in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="bot"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.DeleteTemplate(Digita.Tustena.Core.UserConfig,System.String,System.String)">
+            <summary>
+            delete my template property that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="name"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Print.ITemplateManagerService.DeleteTemplate(Digita.Tustena.Core.UserConfig,Digita.Tustena.Interfaces.Print.ITemplateProperty,System.String)">
+            <summary>
+            delete my template property that match name in argument
+            </summary>
+            <param name="uc"></param>
+            <param name="prop"></param>
+            <param name="fileName"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Samples.ISampleProviderOptions.Deterministic">
+            <summary>
+            When <see langword="true"/>, the generated sample wil be always the same for a given type.
+            When <see langword="false"/>, the generated sample could vary (i.e. the dates could change)
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.IDataShapingProvider">
+            <summary>
+            Data shaping provider
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IDataShapingProvider.CanRead(System.Object,System.Reflection.PropertyInfo,Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Determines whether this instance can read the specified source instance property.
+            </summary>
+            <param name="sourceInstance">The source instance.</param>
+            <param name="sourceProperty">The source property.</param>
+            <param name="uc">The uc.</param>
+            <returns>
+              <c>true</c> if this instance can read the specified source instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IDataShapingProvider.CanWrite(System.Object,System.Reflection.PropertyInfo,Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Determines whether this instance can write the specified destination instance property.
+            </summary>
+            <param name="destinationInstance">The destination instance.</param>
+            <param name="destinationProperty">The destination property.</param>
+            <param name="uc">The uc.</param>
+            <returns>
+              <c>true</c> if this instance can write the specified destination instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IDataShapingProvider.CanWrite(System.Object,System.Reflection.PropertyInfo,System.Object,System.Reflection.PropertyInfo,Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Determines whether this instance can write the specified destination instance property.
+            </summary>
+            <param name="destinationInstance">The destination instance.</param>
+            <param name="destinationProperty">The destination property.</param>
+            <param name="sourceInstance">The source instance.</param>
+            <param name="sourceProperty">The source property.</param>
+            <param name="uc">The uc.</param>
+            <returns>
+              <c>true</c> if this instance can write the specified destination instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IDataShapingProvider.GetBOTypeForDTOType(System.Type)">
+            <summary>
+            Gets the type of the BO type for DTO.
+            </summary>
+            <param name="dtoType">Type of the dto.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IDataTransformationProvider.TransformValue(System.Type,System.Object,System.Type,Digita.Tustena.Core.UserConfig,Digita.Tustena.Interfaces.IDataShapingProvider)">
+            <summary>
+            Transforms the given value to the appropriate value of the desired type
+            </summary>
+            <param name="sourceType">Type of the source.</param>
+            <param name="sourceValue">The source value.</param>
+            <param name="destinationType">Type of the destination.</param>
+            <param name="userConfig">The user config.</param>
+            <param name="dataShapingProvider">The data shaping provider.</param>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:Digita.Tustena.Interfaces.Security.ISecurityCapabilites.Apply(Digita.Tustena.Core.UserConfig,Digita.Tustena.Database.IParametersCollection,System.String)" -->
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.CrossTypeField">
+            <summary>
+            The column name for CROSSTYPE 
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.CrossField">
+            <summary>
+            The column name for CROSSID
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.SalesPersonType">
+            <summary>
+            The type of the object with is applied the security for SalePerson (visible only in assigned)
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.PreConditionTableInsert">
+            <summary>
+            Eventuals pre-conditions table insert in memory table (to increase DB performance)
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.CompanyPreConditionParameterName">
+            <summary>
+            The parameter name of PreConditionTableInsert for visibility of Company
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.ContactPreConditionParameterName">
+            <summary>
+            The parameter name of PreConditionTableInsert for visibility of Contact
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.LeadPreConditionParameterName">
+            <summary>
+            The parameter name of PreConditionTableInsert for visibility of Lead
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.CompanyWhereCondition">
+            <summary>
+            a sub where condition for company visibility
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.ContactWhereCondition">
+            <summary>
+            a sub where condition for contact visibility
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ICrossedSecurityParameter.LeadWhereCondition">
+            <summary>
+            a sub where condition for lead visibility
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.IStandardSecurityParameter.CustomTableName">
+            <summary>
+            The name of the table or of the view to apply Security
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.IStandardSecurityParameter.AdditionalWhereCondition">
+            <summary>
+            Custom where condition to append to standard security
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.IStandardSecurityParameter.SecurityCondition">
+            <summary>
+            The current security condition 
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.IStandardSecurityParameter.FinalSecurityCondition">
+            <summary>
+            The SecurityCondition with the AdditionalWhereCondition 
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.CompanyIdField">
+            <summary>
+            The column name for CompanyId 
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.ContactIdField">
+            <summary>
+            The column name for ContactId
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.LeadIdField">
+            <summary>
+            The column name for LeadId
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.BusinessObjectType">
+            <summary>
+            The type of the object with is applied the security for SalePerson (visible only in assigned)
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.PreConditionTableInsert">
+            <summary>
+            Eventuals pre-conditions table insert in memory table (to increase DB performance)
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.CompanyParameter">
+            <summary>
+            The parameter name of PreConditionTableInsert for visibility of Company
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.ContactParameter">
+            <summary>
+            The parameter name of PreConditionTableInsert for visibility of Contact
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Security.ITernarySecurityParameter.LeadParameter">
+            <summary>
+            The parameter name of PreConditionTableInsert for visibility of Lead
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.CustomJsonPropertyAttribute">
+            <summary>
+                Custom Json attribute for custom Newtonsoft serialization
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ExcludeT4GenerationAttribute.WebService">
+            <summary>
+            file asmx: true=no generation, false=generation
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ExcludeT4GenerationAttribute.WebApiController">
+            <summary>
+            Web api controller: true=no generation, false=generation
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.ReadOnlyPropertyAttribute">
+            <summary>
+                Define if a property can be set in create/update processes
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.WebApiPropertySerializationPriorityAttribute">
+            <summary>
+            The priority level defines how "important" is a DTO property (which leads to determine IF the property is serialized into a specific context)
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.WebApiPropertySerializationPriorityAttribute.#ctor(Digita.Tustena.Interfaces.WebApiSerializationPriority)">
+            <summary>
+             Defines how "important" is a DTO property  (which leads to determine IF the property is serialized into a specific context)
+            </summary>
+            <param name="priority">How "important" is the property ?</param>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.WebApiPropertySerializationPriorityAttribute.Priority">
+            <summary>
+            The priority level defines how "important" is a DTO property (which leads to determine IF the property is serialized into a specific context)
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.WebApiSerializationPriority">
+            <summary>
+            The priority level defines how "important" is a DTO property
+            (which leads to determine IF the property is serialized
+            into a specific context)
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.WebApiSerializationPriority.Low">
+            <summary>
+            Low priority = rarely serialized
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.WebApiSerializationPriority.Medium">
+            <summary>
+            Medium priority = serialized most of the times
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.WebApiSerializationPriority.High">
+            <summary>
+            High priority = (almost) always serialized
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ReportPropertyAttribute.RealDatabaseColumnName">
+            <summary>
+                Gets or sets the name of the real database column.
+            </summary>
+            <value>
+                The name of the real database column.
+            </value>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.BOFactory._log">
+            <summary>
+            Reference to the logger
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.IsBOType(System.Type)">
+            <summary>
+              Determines whether [is BO type] [the specified bo type].
+            </summary>
+            <param name="boType">Type of the bo.</param>
+            <returns>
+              <c>true</c> if [is BO type] [the specified bo type]; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.GetBOInstanceByType(System.Type,Digita.Tustena.Core.UserConfig,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Gets the type of the BO instance by.
+            </summary>
+            <param name="boType">Type of the bo.</param>
+            <param name="userConfig">The user config.</param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException">
+            Cannot get a valid BO type by class  + boType
+            or
+            Cannot get a valid BO instance by class  + boType
+            </exception>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.ExeMode(System.String,System.String,System.Boolean)">
+            <summary>
+            Enable exe-mode. is required when you need to instantiate tustena from a winform application
+            </summary>
+            <param name="rootPath">The Tustena's root path.</param>
+            <param name="binRootPath">The bin relative root path.</param>
+            <param name="isBinPathAbsolute">If true the binRootPath param is considered an absolute path, else a relative path.</param>
+            <exception cref="T:System.IO.FileNotFoundException">web.config not found in  + rootPath</exception>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.LoadUserConfig(System.Int32)">
+            <summary>
+            Loads the user config.
+            </summary>
+            <param name="uid">The uid.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.LoadUserConfig(System.String,System.String)">
+            <summary>
+            Loads the user config.
+            </summary>
+            <param name="username">The username.</param>
+            <param name="password">The password.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.CreateBO(Digita.Tustena.Core.Enums.BusinessObjectType,Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Creates the BO.
+            </summary>
+            <param name="bot">The bot.</param>
+            <param name="uc">The uc.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.GetBoIdByExternalReference(System.String,Digita.Tustena.Core.Enums.BusinessObjectType,Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Get the Bo id by External Reference name
+            </summary>
+            <param name="externalReference"></param>
+            <param name="bot"></param>
+            <param name="uc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.CreateClass(Digita.Tustena.Core.Enums.HelperClassType)">
+            <summary>
+            Creates the class.
+            </summary>
+            <param name="sct">The HelperClassType.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.GetBOType(Digita.Tustena.Core.Enums.BusinessObjectType,System.Boolean)">
+            <summary>
+            Gets the type of the bo.
+            </summary>
+            <param name="businessObjectType">Type of the business object.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.GetInstanceType(System.Enum,System.Boolean)">
+            <summary>
+            Gets the type of the instance.
+            </summary>
+            <param name="type">The type.</param>
+            <returns></returns>
+            <exception cref="T:System.Exception">Bo  + type +  not implemented in this Interface</exception>
+            <exception cref="T:Digita.Tustena.Database.DBException">Transaction is missing. Use Transaction.Start() first.</exception>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.CreateInstance(System.Enum,Digita.Tustena.Core.UserConfig,System.Nullable{Digita.Tustena.Core.Enums.BusinessObjectInvoker})">
+            <summary>
+            Creates the instance.
+            </summary>
+            <param name="type">The type.</param>
+            <param name="uc">The UserConfig.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.BOFactory.LoadLanguageResources(System.Boolean)">
+            <summary>
+            Loads the language resources.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.IEventExtension">
+            <summary>
+            EventExtension public interface
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.ICustomBOEventExtension">
+            <summary>
+            ICustomBOEventExtension is a public interface used to create a custom BO
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.IInitEventExtension">
+            <summary>
+            EventExtension public interface with Init method
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Report.Mapper.IReportLayoutStudio.IsVisible(Digita.Tustena.Interfaces.Report.Mapper.IFieldProperty)">
+            <summary>
+            Determines whether the specified field name is visible from LayoutStudio parameter
+            </summary>
+            <param name="fieldName">Name of the field.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Report.Mapper.IReportLayoutStudio.IsFreeFieldVisible(Digita.Tustena.Interfaces.Report.Mapper.IFieldProperty)">
+            <summary>
+            Determines whether [is free field visible] [the specified p].
+            </summary>
+            <param name="freeFieldName">Name of the free field.</param>
+            <returns></returns>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Report.Mapper.IMapper.GetFromTableForReport(System.String)">
+            <summary>
+            return the "FROM" sql condition including externals join party table
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Report.Mapper.IMapper.GetRealFieldName(System.String,System.Boolean)">
+            <summary>
+            Get the real table name, from tqbuilder structure, like virtualtable.virtualfield
+            </summary>
+            <param name="fieldname">the name of the virtual field</param>
+            <param name="checkselect">in the field check if the field has a Select attribute, and in case return the select value</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Report.Mapper.IMapper.GetLayoutStudioReportMatch(System.String)">
+            <summary>
+            Gets the layout studio report match.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Config.IPolyedroConfiguration.IsAuActive">
+            <summary>
+            Check if Polyedro config is Active and AU is Active
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.Config.IPolyedroConfiguration.IsSSOActive">
+            <summary>
+            Check if Polyedro config is Active and SSO is Active
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.Exchange.IExchangeSynchronizationOptions.AsyncMode">
+            <summary>
+              Gets or sets a value indicating whether [async mode].
+            </summary>
+            <value>
+              <c>true</c> if [async mode]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.FuncHelper.InfoBox(Digita.Tustena.Core.UserConfig,System.String,Digita.Tustena.Core.Enums.Gravity)">
+            <summary>
+            InfoBox wrapper to use in BoFactory.
+            </summary>
+            <param name="uc">UserConfig</param>
+            <param name="message">The message</param>
+            <param name="gravity">Enums.Gravity</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.FuncHelper.IsNumber(System.String)">
+            <summary>
+            Determines whether the specified s is number.
+            </summary>
+            <param name="s">Input string.</param>
+            <returns>
+            	<c>true</c> if the specified s is number; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.FuncHelper.DecimalParse(System.String)">
+            <summary>
+            Parse string to Decimal
+            </summary>
+            <param name="number">The number.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.FuncHelper.FixDecimal(System.String)">
+            <summary>
+            Fixes the decimal part of the number.
+            </summary>
+            <param name="s">Input string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.FuncHelper.IsDate(System.DateTime)">
+            <summary>
+            Determines whether the specified dt is a valid date.
+            </summary>
+            <param name="dt">The dt.</param>
+            <returns>
+            	<c>true</c> if the specified dt is date; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IBoToXML.ToXML(Digita.Tustena.Interfaces.ICrmBusinessObjects)">
+            <summary>
+            Business Object to XML.
+            </summary>
+            <param name="bo">The BO.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IBoToXML.ToXML(Digita.Tustena.Interfaces.ICrmBusinessObjects,System.String)">
+            <summary>
+            Business Object to XML with GUID injection.
+            </summary>
+            <param name="bo">The BO.</param>
+            <param name="keyGuid">The key GUID.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IBoToXML.SaveBo(Digita.Tustena.Interfaces.ICrmBusinessObjects,System.String)">
+            <summary>
+            Saves the Business Object to an xml document.
+            </summary>
+            <param name="bo">The bo.</param>
+            <param name="xmldoc">The xmldoc.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IBoToXML.SaveBo(Digita.Tustena.Interfaces.ICrmBusinessObjects,System.String,System.Boolean)">
+            <summary>
+            Saves the Business Object to an xml document.
+            </summary>
+            <param name="bo">The bo.</param>
+            <param name="xmldoc">The xmldoc.</param>
+            <param name="forceLoad">if set to <c>true</c> will force load.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IBoToXML.SaveBo(Digita.Tustena.Interfaces.ICrmBusinessObjects,System.Xml.XmlNode)">
+            <summary>
+            Saves the Business Object to an Xml Node.
+            </summary>
+            <param name="bo">The bo.</param>
+            <param name="xmlNode">The XML node.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IBoToXML.SaveBo(Digita.Tustena.Interfaces.ICrmBusinessObjects,System.Xml.XmlNode,System.Boolean)">
+            <summary>
+            Saves the Business Object to an Xml Node.
+            </summary>
+            <param name="bo">The bo.</param>
+            <param name="xmlNode">The XML node.</param>
+            <param name="forceLoad">if set to <c>true</c> will force load.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IBoToXML.FillBo(Digita.Tustena.Interfaces.ICrmBusinessObjects,System.Xml.XmlNode)">
+            <summary>
+            Fills the the Business Object from an Xml Node.
+            </summary>
+            <param name="bo">The bo.</param>
+            <param name="xmlNode">The XML node.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICometMessage.MessageId">
+            <summary>
+            Gets or Sets the MessageId, used to track which message the Client last received
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICometMessage.Contents">
+            <summary>
+            Gets or Sets the Content of the Message
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICometMessage.Name">
+            <summary>
+            Gets or Sets the error message if this is a failure
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICometJavascriptCall.EnsureRemove">
+            <summary>
+            Prevent consecutive execution when the page is reloaded between comet connections
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.UC">
+            <summary>
+            Cast UserConfig to Internal UserConfig
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.Id">
+            <summary>
+            Gets or sets the id.
+            </summary>
+            <value>
+            The id.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.CreatedDate">
+            <summary>
+            Gets or sets the created date.
+            </summary>
+            <value>The created date.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.LastModifiedDate">
+            <summary>
+            Gets or sets the last modified date.
+            </summary>
+            <value>The last modified date.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.ExternalReference">
+            <summary>
+            Gets or sets the an external reference to the object
+            </summary>
+            <value>The reference value.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.LastModifiedById">
+            <summary>
+            Gets or sets the last modified by id.
+            </summary>
+            <value>The last modified by id.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.ClientMessage">
+            <summary>
+            Gets or sets the error message.
+            </summary>
+            <value>The error message.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.BusinessObject">
+            <summary>
+            Gets or sets the business object type.
+            </summary>
+            <value>The business object.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.GeoLocalization">
+            <summary>
+            Gets or sets the geo localization.
+            </summary>
+            <value>The geo localization.</value>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.ClearPluginEvents">
+            <summary>
+            Clears the plugin events.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.ClearPluginEvents(Digita.Tustena.Core.Enums.Events)">
+            <summary>
+            Clears the plugin events with the exclude events.
+            </summary>
+            <param name="excludeEvents">The exclude events.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.StringNullable(System.String)">
+            <summary>
+            Verify if strings is nullable.
+            </summary>
+            <param name="val">The value is string.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.NumericNullable(System.Int16)">
+            <summary>
+            Verify if Numerics is nullable.
+            </summary>
+            <param name="val">The value is short.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.NumericNullable(System.Int32)">
+            <summary>
+            Numerics the nullable.
+            </summary>
+            <param name="val">The value is int</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.NumericNullable(System.Int64)">
+            <summary>
+            Numerics the nullable.
+            </summary>
+            <param name="val">The value is long.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.NumericNullable(System.Decimal)">
+            <summary>
+            Numerics the nullable.
+            </summary>
+            <param name="val">The value is decimal.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.NumericNullable(System.DateTime)">
+            <summary>
+            Numerics the nullable.
+            </summary>
+            <param name="val">The value is date.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.UpdateIdentity(System.Object)">
+            <summary>
+            Updates the identity.
+            </summary>
+            <param name="newId">The new id.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.HasChanged(Digita.Tustena.Interfaces.ICrmBusinessObjects)">
+            <summary>
+            Compare business object with his original copy
+            </summary>
+            <param name="otherBo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnPreLoad(System.Int64)">
+            <summary>
+            Event the on pre load.
+            </summary>
+            <param name="id">The id.</param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnPreSave">
+            <summary>
+            Event the on pre save.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnLoadComplete(Digita.Tustena.Core.RowElements)">
+            <summary>
+            Event the on load complete.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnSaveComplete">
+            <summary>
+            Event the on save complete.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnPreRuleEngine">
+            <summary>
+            Event the on pre rule engine.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnCustomEvent(System.String,System.Object[])">
+            <summary>
+            Event the on custom event.
+            </summary>
+            <param name="action">The action.</param>
+            <param name="options">The options.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnPostRuleEngine">
+            <summary>
+            Event the on post rule engine.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnDelete(System.Int64[])">
+            <summary>
+            Event the on delete.
+            </summary>
+            <param name="ids">The ids.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.EventOnError">
+            <summary>
+            Event the on error.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.Load(System.Int64)">
+            <summary>
+            Loads the specified id.
+            </summary>
+            <param name="id">The id.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.LoadFull">
+            <summary>
+            Loads Full object model with dependencies.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.Delete">
+            <summary>
+            Deletes this instance.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.Delete(Digita.Tustena.Interfaces.BoDeleteMode)">
+            <summary>
+            Deletes this instance. If the specified mode is not supported, a <see cref="T:System.NotSupportedException">NotSupportedException</see> is raised
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.GetDeleteStrategies">
+            <summary>
+            Return the "delete strategies" supported by the <see cref="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.Delete(Digita.Tustena.Interfaces.BoDeleteMode)">Delete(BoDeleteMode mode)</see> method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.Delete(System.Int64[])">
+            <summary>
+            Deletes the specified ids.
+            </summary>
+            <param name="ids">The ids.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.Token">
+            <summary>
+            Tokens this instance.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjects.Url">
+            <summary>
+            Get external URL to open current business object
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.GetJsonBlock">
+            <summary>
+            Gets the json block.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ICrmBusinessObjects.GetJsonHashTable">
+            <summary>
+            Gets the json hash table.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjectEventArgs.Abort">
+            <summary>
+            Abort current operations on BusinessObject
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjectEventArgs.ClientMessage">
+            <summary>
+            A message for the cause of aborting
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjectEventArgs.Gravity">
+            <summary>
+            InfoBox  gravity level
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.BusinessObjectEventArgs.ClientNotify">
+            <summary>
+            Notify the message to user browser
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjectsCommonProperties.Id">
+            <summary>
+            Gets or sets the id.
+            </summary>
+            <value>
+            The id.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjectsCommonProperties.CreatedDate">
+            <summary>
+            Gets or sets the created date.
+            </summary>
+            <value>The created date.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjectsCommonProperties.LastModifiedDate">
+            <summary>
+            Gets or sets the last modified date.
+            </summary>
+            <value>The last modified date.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjectsCommonProperties.ExternalReference">
+            <summary>
+            Gets or sets the an external reference to the object
+            </summary>
+            <value>The reference value.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjectsCommonProperties.LastModifiedById">
+            <summary>
+            Gets or sets the last modified by id.
+            </summary>
+            <value>The last modified by id.</value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjectsDescriptor.Id">
+            <summary>
+            Gets or sets the id.
+            </summary>
+            <value>
+            The id.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ICrmBusinessObjectsDescriptor.BusinessObject">
+            <summary>
+            Gets or sets the business object type.
+            </summary>
+            <value>The business object.</value>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IFreeFieldsManager.Load(System.Int64,Digita.Tustena.Core.Enums.BusinessObjectType)">
+            <summary>
+            Load the freefield item
+            </summary>
+            <param name="items"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IFreeFieldsManager.Save(System.Collections.Generic.List{Digita.Tustena.Interfaces.BusinessObjects.IFreeFieldsItem},System.Int64)">
+            <summary>
+            Sale the freefield
+            </summary>
+            <param name="items"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IFreeFieldsManager.Exists(Digita.Tustena.Core.Enums.BusinessObjectType,System.String,System.String)">
+            <summary>
+            Check i a freefield exists
+            </summary>
+            <param name="bot"></param>
+            <param name="code">The code or null</param>
+            <param name="name">The name or null</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IFreeFieldsManager.SearchByName(Digita.Tustena.Core.Enums.BusinessObjectType,System.String,System.String)">
+            <summary>
+            Search the freefield by name and search key
+            </summary>
+            <param name="bot"></param>
+            <param name="name"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.IFreeFieldsManager.SearchByCode(Digita.Tustena.Core.Enums.BusinessObjectType,System.String,System.String)">
+            <summary>
+            Search the freefield by code and search key
+            </summary>
+            <param name="bot"></param>
+            <param name="code"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ISqlStructure.TableWideExpression">
+            <summary>
+            Extend the data table with a function excecuted on the whole recordset.
+            The first field is the function, the second field is the final column name
+            For example, new KeyValuePair&lt;string, string&gt;("SUM(DURATION)","TOTALDURATION")
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ISqlStructure.CreateDataTable(System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Return Partial DataTable
+            </summary>
+            <param name="tablePageNumber">the number of the current page</param>
+            <param name="tableRowOffset">the number of rows in the page</param>
+            <param name="tableLastRowCount">if using more than one sqlStructure, get the total count of the last sqlStructure</param>
+            <param name="inCaseUsePaging">if paging is enabled, so this perform the a count of the totals</param>
+            <param name="countRows">Count the returned rows</param>
+            <param name="readUncommitted">if execute query in read uncommitted</param>
+            <returns></returns>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.HandlerForOnAbort">
+            <summary>
+            References the method that will handle the OnAbort event.
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.HandlerForOnException">
+            <summary>
+            References the method that will handle the OnException event.
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.HandlerForOnFinish">
+            <summary>
+            References the method that will handle the OnFinish event.
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.HandlerForOnJob">
+            <summary>
+            References the method that will handle the OnJob event.
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.HandlerForOnTerminate">
+            <summary>
+            References the method that will handle the OnTerminate event.
+            NOTE: This is the ThreadHandler's cleanup-event. Exceptions here are not handled, and are not taken as thread exceptions.
+            </summary>
+        </member>
+        <member name="E:Digita.Tustena.Interfaces.IThreadManager.OnJob">
+            <summary>
+            Event is raised once, when the processing starts.
+            </summary>
+        </member>
+        <member name="E:Digita.Tustena.Interfaces.IThreadManager.OnAbort">
+            <summary>
+            On aborting this event's delegate function may do extra calculations.
+            </summary>
+        </member>
+        <member name="E:Digita.Tustena.Interfaces.IThreadManager.OnFinish">
+            <summary>
+            If thread is finished SUCCESFULLY, this event will be raised.
+            </summary>
+        </member>
+        <member name="E:Digita.Tustena.Interfaces.IThreadManager.OnTerminate">
+            <summary>
+            If thread is aborted, just before leaving the ThreadHandler's working function this event will be triggered.
+            </summary>
+        </member>
+        <member name="E:Digita.Tustena.Interfaces.IThreadManager.OnException">
+            <summary>
+            When the event delegates exceptions are not handled, the thread catches the exception!
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.ThreadManagerEventArgs.threadManager">
+            <summary>
+            ThreadHandler, which has generated the event.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ThreadManagerEventArgs.#ctor(Digita.Tustena.Interfaces.IThreadManager)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="threadManager">ThreadHandler object</param>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ThreadManagerEventArgs.Handler">
+            <summary>
+            The ThreadHandler from where this event was generated.
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.ThreadManagerExceptionArgs.exception">
+            <summary>
+            The Exception object.
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.Interfaces.ThreadManagerExceptionArgs.threadManager">
+            <summary>
+            The ThreadHandler, where the exception occured.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ThreadManagerExceptionArgs.#ctor(Digita.Tustena.Interfaces.IThreadManager,System.Exception)">
+            <summary>
+            Constructor for ThreadHandlerExceptionArgs.
+            </summary>
+            <param name="threadManager">ThreadHandler object</param>
+            <param name="exception">Exception object</param>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ThreadManagerExceptionArgs.Handler">
+            <summary>
+            The ThreadHandler, where the exception occured.
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.ThreadManagerExceptionArgs.Ex">
+            <summary>
+            The exception that was catched.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ITustenaLiquid.AddTustenaAnonymousObject(System.String,System.Object)">
+            <summary>
+            Add a object to Tustena namespace. So will be access to Tustena.name
+            </summary>
+            <param name="name"></param>
+            <param name="obj"></param>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.ITustenaMessage.Send(Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Sends an internal message.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Interfaces.PdfUtility.IWatermarkProtocol.Watermark(System.String,System.String,System.Boolean,System.DateTime,Digita.Tustena.Core.UserConfig)">
+            <summary>
+            Watermark and save the file
+            </summary>
+            <param name="path">Original Path</param>
+            <param name="protocol">Protocol to watermark</param>
+            <param name="income">if the protocol is incoming or outcoming</param>
+            <param name="createdDate">the CreatedDate of Protocol</param>
+            <param name="uc">the UC</param>
+            <returns>the new path of the file, usually is a subPath if folder ProtocolSign</returns>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.PrintManager.IPrintManager">
+            <summary>
+            The interface for printmanager.
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.PrintManager.IPrintManager.UC">
+            <summary>
+            The current user.
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Interfaces.PrintManager.IPrintManager.TemplateName">
+            <summary>
+            The template name.
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Interfaces.WebControls.IAjaxedContainerBox">
+            <summary>
+            Interfaces when Custom WebControl is wrapped into a container. 
+            The Property AjaxedContainerId Must be the ClientId of the container
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Base.BusinessObjects.BOUtils.GetFirstBOByType``1(Digita.Tustena.Core.UserConfig)">
+            <summary>
+              Gets the first BO by type
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="userConfig">The user config.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Base.BusinessObjects.BOUtils.GetFirstBOByType(System.Type,Digita.Tustena.Core.UserConfig,System.Boolean)">
+            <summary>
+              Gets the first BO by type
+            </summary>
+            <param name="boType">Type of the bo.</param>
+            <param name="userConfig">The user config.</param>
+            <param name="throwOnRecordNotFound">
+              if set to <c>true</c> [throw on record not found].
+            </param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException">
+              Cannot get a valid BO type by class  + boType
+              or
+              Cannot load the first record of table  + ea.CRMTable
+              or
+              Cannot load a valid BO  + bot +  by id  + id
+            </exception>
+        </member>
+        <member name="M:Digita.Tustena.Base.BusinessObjects.BOUtils.GetFirstId(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+              Gets the first id.
+            </summary>
+            <param name="tableName">Name of the table.</param>
+            <param name="keyColumn">The key column.</param>
+            <param name="throwOnRecordNotFound">
+              if set to <c>true</c> [throw on record not found].
+            </param>
+            <returns></returns>
+            <exception cref="T:System.InvalidOperationException">Cannot load the first record of table  + tableName</exception>
+        </member>
+        <member name="P:Digita.Tustena.DTO.Search.IDTOSearchConnectedCriteria`1.TrailingOperator">
+            <summary>
+            Gets or sets the trailing operator.
+            </summary>
+            <value>
+            The trailing operator.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.DTO.Search.IDTOSearchSingleCriteria`1.ParametersValues">
+            <summary>
+            Gets or sets the parameters values.
+            </summary>
+            <value>
+            The parameters values.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.DTO.Search.IDTOSearchSingleCriteria`1.Comparator">
+            <summary>
+            Gets or sets the comparator.
+            </summary>
+            <value>
+            The comparator.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.DTO.Search.IDTOSearchSingleCriteria`1.Operator">
+            <summary>
+            Gets or sets the operator.
+            </summary>
+            <value>
+            The operator.
+            </value>
+        </member>
+        <member name="T:Digita.Tustena.DTO.Search.IDTOSearchEngine">
+            <summary>
+            DTO search engine
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.DTO.Search.IDTOSearchEngine.CountIdsBySingleCriteria``1(Digita.Tustena.Core.UserConfig,Digita.Tustena.DTO.Search.IDTOSearchSingleCriteria{``0})">
+            <summary>
+            Countes the ids by single criteria.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="userConfig">The user config.</param>
+            <param name="criteria">The criteria.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">criteria;The single criteria set cannot be null</exception>
+        </member>
+        <member name="M:Digita.Tustena.DTO.Search.IDTOSearchEngine.CountIdsByConnectedCriteria``1(Digita.Tustena.Core.UserConfig,Digita.Tustena.DTO.Search.IDTOSearchConnectedCriteria{``0}[])">
+            <summary>
+              Countes the ids by connected criteria.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="userConfig">The user config.</param>
+            <param name="criteria">The criteria.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">
+              criteria;The connected criteria set cannot be null
+              or
+              criteria;The connected criteria set cannot be empty. At least one criteria must be specified
+            </exception>
+            <exception cref="T:System.InvalidOperationException">Cannot get a valid BO type by class  + boType</exception>
+        </member>
+        <member name="M:Digita.Tustena.DTO.Search.IDTOSearchEngine.SearchIdsBySingleCriteria``1(Digita.Tustena.Core.UserConfig,Digita.Tustena.DTO.Search.IDTOSearchSingleCriteria{``0})">
+            <summary>
+              Searches the ids by single criteria.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="userConfig">The user config.</param>
+            <param name="criteria">The criteria.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">criteria;The single criteria set cannot be null</exception>
+        </member>
+        <member name="M:Digita.Tustena.DTO.Search.IDTOSearchEngine.SearchIdsByConnectedCriteria``1(Digita.Tustena.Core.UserConfig,Digita.Tustena.DTO.Search.IDTOSearchConnectedCriteria{``0}[])">
+            <summary>
+              Searches the ids by connected criteria.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="userConfig">The user config.</param>
+            <param name="criteria">The criteria.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">
+              criteria;The connected criteria set cannot be null
+              or
+              criteria;The connected criteria set cannot be empty. At least one criteria must be specified
+            </exception>
+            <exception cref="T:System.InvalidOperationException">Cannot get a valid BO type by class  + boType</exception>
+        </member>
+        <member name="M:Digita.Tustena.DTO.Search.IDTOSearchEngine.CreateSearchSingleCriteria``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.DTO.Search.IDTOSearchEngine.CreateSearchConnectedCriteria``1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="F:Digita.Tustena.Core.NinjectFacade._log">
+            <summary>
+            Reference to the logger
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Exchange.ExchangeSynchronizationEventArgs.#ctor(Digita.Tustena.Interfaces.Exchange.IExchangeSynchronizationEvent)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Digita.Tustena.Exchange.ExchangeSynchronizationEventArgs"/> class.
+            </summary>
+            <param name="evt">The evt.</param>
+        </member>
+        <member name="P:Digita.Tustena.Exchange.ExchangeSynchronizationEventArgs.Event">
+            <summary>
+            Gets the event.
+            </summary>
+            <value>
+            The event.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.Exchange.IExchangeSynchronizationEvents.IsSuccess">
+            <summary>
+            Gets a value indicating whether this instance is success.
+            </summary>
+            <value>
+            <c>true</c> if this instance is success; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.Exchange.IExchangeSynchronizationEvents.HasErrors">
+            <summary>
+            Gets a value indicating whether this instance has errors.
+            </summary>
+            <value>
+            <c>true</c> if this instance has errors; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.Exchange.IExchangeSynchronizationEvents.HasWarnings">
+            <summary>
+            Gets a value indicating whether this instance has warnings.
+            </summary>
+            <value>
+            <c>true</c> if this instance has warnings; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="E:Digita.Tustena.Exchange.IExchangeSynchronizationEvents.EventAdded">
+            <summary>
+            Occurs when EventName.
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.WebApi.WebApiVersion.LegacyV9">
+            <summary>
+            OLD Web API implementation (Tustena v18)
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.WebApi.WebApiVersion.WebApiV1">
+            <summary>
+            NEW Web API implementation
+            </summary>
+        </member>
+        <member name="F:Digita.Tustena.WebApi.WebApiVersion.Latest">
+            <summary>
+            LATEST Web API implementation
+            </summary>
+        </member>
+    </members>
+</doc>

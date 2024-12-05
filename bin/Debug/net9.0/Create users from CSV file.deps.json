@@ -7,8 +7,1165 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {
       "Create users from CSV file/1.0.0": {
+        "dependencies": {
+          "System.Security.Permissions": "9.0.0",
+          "Digita.Contracts": "3.0.348.0",
+          "Digita.Tustena.Base": "20.79.2672.86",
+          "Digita.Tustena.Core": "20.79.2672.86",
+          "Digita.Tustena.Database": "20.79.2672.86",
+          "Digita.Tustena.Interfaces": "20.79.2672.86",
+          "Digita.Tustena.Report": "20.79.2672.86",
+          "Digita.Tustena.UI.Contracts": "20.79.2672.86",
+          "Digita.Tustena.UI.Interfaces": "20.79.2672.86",
+          "Digita.Tustena.UI.Utils": "20.79.2672.86",
+          "Digita.Utils": "3.0.348.0",
+          "Newtonsoft.Json": "12.0.0.0"
+        },
         "runtime": {
           "Create users from CSV file.dll": {}
+        }
+      },
+      "System.Security.Permissions/9.0.0": {
+        "dependencies": {
+          "System.Windows.Extensions": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "System.Windows.Extensions/9.0.0": {
+        "runtime": {
+          "lib/net9.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.52809"
+          }
+        }
+      },
+      "Digita.Contracts/3.0.348.0": {
+        "runtime": {
+          "Digita.Contracts.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Digita.Tustena.Base/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Base.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.Core/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Core.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.Database/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Database.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.Interfaces/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Interfaces.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.Report/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Report.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.UI.Contracts/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.UI.Contracts.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.UI.Interfaces/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.UI.Interfaces.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.UI.Utils/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.UI.Utils.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Utils/3.0.348.0": {
+        "runtime": {
+          "Digita.Utils.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "JetBrains.Annotations/11.0.0.0": {
+        "runtime": {
+          "JetBrains.Annotations.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
+          }
+        }
+      },
+      "log4net/2.0.8.0": {
+        "runtime": {
+          "log4net.dll": {
+            "assemblyVersion": "2.0.8.0",
+            "fileVersion": "2.0.8.0"
+          }
+        }
+      },
+      "Digita.VirtualFileSystem/3.0.348.0": {
+        "runtime": {
+          "Digita.VirtualFileSystem.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "DotLiquid/2.0.361.0": {
+        "runtime": {
+          "DotLiquid.dll": {
+            "assemblyVersion": "2.0.361.0",
+            "fileVersion": "2.0.361.0"
+          }
+        },
+        "resources": {
+          "it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "Digita.Benchmarking/3.0.348.0": {
+        "runtime": {
+          "Digita.Benchmarking.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "System.Web.UI.WebControls.DomValidators/2.0.0.5": {
+        "runtime": {
+          "System.Web.UI.WebControls.DomValidators.dll": {
+            "assemblyVersion": "2.0.0.5",
+            "fileVersion": "2.0.0.5"
+          }
+        }
+      },
+      "Digita.Data.Sql.Fluent/3.0.348.0": {
+        "runtime": {
+          "Digita.Data.Sql.Fluent.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "FastSerialize/1.0.0.0": {
+        "runtime": {
+          "FastSerialize.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Digita.Tustena.TeamSystemID3/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.TeamSystemID3.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.Security/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Security.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.SignalR/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.SignalR.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.ChangeLog/3.0.348.0": {
+        "runtime": {
+          "Digita.ChangeLog.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Digita.Caching/3.0.348.0": {
+        "runtime": {
+          "Digita.Caching.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Digita.Tustena.Router/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Router.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "MimeKit/2.8.0.0": {
+        "runtime": {
+          "MimeKit.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "Digita.Tustena.WebMail/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.WebMail.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "DistributedLock/1.4.0.0": {
+        "runtime": {
+          "DistributedLock.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Tustena.CSharpProcessor/20.79.2672.86": {
+        "runtime": {
+          "Tustena.CSharpProcessor.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.TeamSystemID/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.TeamSystemID.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Tustena.Components.Polyedro/1.2.78.0": {
+        "runtime": {
+          "Tustena.Components.Polyedro.dll": {
+            "assemblyVersion": "1.2.78.0",
+            "fileVersion": "1.2.78.0"
+          }
+        }
+      },
+      "Spss/1.0.4204.20524": {
+        "runtime": {
+          "Spss.dll": {
+            "assemblyVersion": "1.0.4204.20524",
+            "fileVersion": "1.0.4204.20524"
+          }
+        }
+      },
+      "DigitaPopImap/3.0.7088.26992": {
+        "runtime": {
+          "DigitaPopImap.dll": {
+            "assemblyVersion": "3.0.7088.26992",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "MailKit/2.4.0.0": {
+        "runtime": {
+          "MailKit.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.1.0"
+          }
+        }
+      },
+      "Enyim.Caching/2.16.0.0": {
+        "runtime": {
+          "Enyim.Caching.dll": {
+            "assemblyVersion": "2.16.0.0",
+            "fileVersion": "2.16.0.0"
+          }
+        }
+      },
+      "Hammock/1.0.0.0": {
+        "runtime": {
+          "Hammock.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "dotless.Core/1.5.2.0": {
+        "runtime": {
+          "dotless.Core.dll": {
+            "assemblyVersion": "1.5.2.0",
+            "fileVersion": "1.5.2.0"
+          }
+        }
+      },
+      "Digita.Tustena.LayoutStudio/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.LayoutStudio.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "EPPlus/4.1.0.0": {
+        "runtime": {
+          "EPPlus.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      },
+      "ZedGraph/5.1.5.29136": {
+        "runtime": {
+          "ZedGraph.dll": {
+            "assemblyVersion": "5.1.5.29136",
+            "fileVersion": "5.1.5.29136"
+          }
+        }
+      },
+      "Lucene.Net/3.0.3.0": {
+        "runtime": {
+          "Lucene.Net.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.3.0"
+          }
+        }
+      },
+      "Digita.Tustena.Tasking/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Tasking.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.12.0": {
+        "runtime": {
+          "HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.12.0",
+            "fileVersion": "1.11.12.0"
+          }
+        }
+      },
+      "Microsoft.SqlServer.TransactSql.ScriptDom/14.0.0.0": {
+        "runtime": {
+          "Microsoft.SqlServer.TransactSql.ScriptDom.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.3660.1"
+          }
+        }
+      },
+      "UnifiedMessaging.Core/2.0.5.0": {
+        "runtime": {
+          "UnifiedMessaging.Core.dll": {
+            "assemblyVersion": "2.0.5.0",
+            "fileVersion": "2.0.5.0"
+          }
+        }
+      },
+      "ImageProcessing/2.1.6766.20426": {
+        "runtime": {
+          "ImageProcessing.dll": {
+            "assemblyVersion": "2.1.6766.20426",
+            "fileVersion": "2.1.6766.20426"
+          }
+        }
+      },
+      "Ical.Net/4.1.8.0": {
+        "runtime": {
+          "Ical.Net.dll": {
+            "assemblyVersion": "4.1.8.0",
+            "fileVersion": "4.1.8.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml/2.7.2.0": {
+        "runtime": {
+          "DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "2.7.2.0",
+            "fileVersion": "2.7.2.0"
+          }
+        }
+      },
+      "HtmlToOpenXml/2.0.0.0": {
+        "runtime": {
+          "HtmlToOpenXml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.0.0": {
+        "runtime": {
+          "Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.50524.0"
+          }
+        }
+      },
+      "DigitaMailer/4.0.31.0": {
+        "runtime": {
+          "DigitaMailer.dll": {
+            "assemblyVersion": "4.0.31.0",
+            "fileVersion": "4.0.31.0"
+          }
+        }
+      },
+      "ExcelNumberFormat/1.0.3.0": {
+        "runtime": {
+          "ExcelNumberFormat.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "ExcelDataReader/3.4.2.0": {
+        "runtime": {
+          "ExcelDataReader.dll": {
+            "assemblyVersion": "3.4.2.0",
+            "fileVersion": "3.4.2.0"
+          }
+        }
+      },
+      "ImageProcessor/2.7.0.100": {
+        "runtime": {
+          "ImageProcessor.dll": {
+            "assemblyVersion": "2.7.0.100",
+            "fileVersion": "2.7.0.100"
+          }
+        }
+      },
+      "Digita.Agyo.Log/3.0.348.0": {
+        "runtime": {
+          "Digita.Agyo.Log.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Digita.Agyo.Log.Management/3.0.348.0": {
+        "runtime": {
+          "Digita.Agyo.Log.Management.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Digita.CryptoLogging/3.0.348.0": {
+        "runtime": {
+          "Digita.CryptoLogging.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Thought.Net.vCards/0.4.0.0": {
+        "runtime": {
+          "Thought.Net.vCards.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "itextsharp/4.1.7.0": {
+        "runtime": {
+          "itextsharp.dll": {
+            "assemblyVersion": "4.1.7.0",
+            "fileVersion": "4.1.7.0"
+          }
+        }
+      },
+      "IdentityModel/6.0.0.0": {
+        "runtime": {
+          "IdentityModel.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        }
+      },
+      "System.Web.Http/5.2.4.0": {
+        "runtime": {
+          "System.Web.Http.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.60201.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/6.6.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.10522"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/6.6.0.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.10522"
+          }
+        }
+      },
+      "OneOf/1.0.0.0": {
+        "runtime": {
+          "OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UAParser/3.1.43.0": {
+        "runtime": {
+          "UAParser.dll": {
+            "assemblyVersion": "3.1.43.0",
+            "fileVersion": "3.1.43.0"
+          }
+        }
+      },
+      "Digita.Tustena.MailComposer/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.MailComposer.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Tustena.Components.CloudConnector/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Components.CloudConnector.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "BouncyCastle.Crypto/1.8.5.0": {
+        "runtime": {
+          "BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.5.2"
+          }
+        }
+      },
+      "Digita.Log4NetExtensions/3.0.348.0": {
+        "runtime": {
+          "Digita.Log4NetExtensions.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Digita.Tustena.WebApi.Authentication/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.WebApi.Authentication.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Digita.Net.Http/3.0.348.0": {
+        "runtime": {
+          "Digita.Net.Http.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core/2.3.0.0": {
+        "runtime": {
+          "Microsoft.AspNet.SignalR.Core.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.10626.1544"
+          }
+        }
+      },
+      "Google.Apis.Core/1.27.1.0": {
+        "runtime": {
+          "Google.Apis.Core.dll": {
+            "assemblyVersion": "1.27.1.0",
+            "fileVersion": "1.27.1.0"
+          }
+        }
+      },
+      "Ninject/3.3.2.0": {
+        "runtime": {
+          "Ninject.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        }
+      },
+      "NewRelic.Api.Agent/6.16.178.0": {
+        "runtime": {
+          "NewRelic.Api.Agent.dll": {
+            "assemblyVersion": "6.16.178.0",
+            "fileVersion": "6.16.178.0"
+          }
+        }
+      },
+      "System.Net.Http.Formatting/5.2.4.0": {
+        "runtime": {
+          "System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.60201.0"
+          }
+        }
+      },
+      "Digita.Tustena.Tasking.Azure/20.79.2672.86": {
+        "runtime": {
+          "Digita.Tustena.Tasking.Azure.dll": {
+            "assemblyVersion": "20.79.2672.86",
+            "fileVersion": "20.79.2672.86"
+          }
+        }
+      },
+      "Microsoft.Data.Edm/5.8.4.0": {
+        "runtime": {
+          "Microsoft.Data.Edm.dll": {
+            "assemblyVersion": "5.8.4.0",
+            "fileVersion": "5.8.4.63386"
+          }
+        },
+        "resources": {
+          "de/Microsoft.Data.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.Data.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.Data.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.Data.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "ru/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Web.Http.OData/5.7.0.0": {
+        "runtime": {
+          "System.Web.Http.OData.dll": {
+            "assemblyVersion": "5.7.0.0",
+            "fileVersion": "5.7.30821.0"
+          }
+        }
+      },
+      "Microsoft.Data.OData/5.8.4.0": {
+        "runtime": {
+          "Microsoft.Data.OData.dll": {
+            "assemblyVersion": "5.8.4.0",
+            "fileVersion": "5.8.4.63386"
+          }
+        },
+        "resources": {
+          "de/Microsoft.Data.OData.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.Data.OData.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.Data.OData.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.Data.OData.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.Data.OData.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.Data.OData.resources.dll": {
+            "locale": "ko"
+          },
+          "ru/Microsoft.Data.OData.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.Data.OData.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Digita.VirtualFileSystem.Management/3.0.348.0": {
+        "runtime": {
+          "Digita.VirtualFileSystem.Management.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Digita.VirtualFileSystem.Configuration/3.0.348.0": {
+        "runtime": {
+          "Digita.VirtualFileSystem.Configuration.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "System.Data.HashFunction.xxHash/2.0.0.0": {
+        "runtime": {
+          "System.Data.HashFunction.xxHash.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "StackExchange.Redis/2.0.0.0": {
+        "runtime": {
+          "StackExchange.Redis.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.30.38891"
+          }
+        }
+      },
+      "System.Data.HashFunction.Interfaces/2.0.0.0": {
+        "runtime": {
+          "System.Data.HashFunction.Interfaces.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Digita.Ninject/3.0.348.0": {
+        "runtime": {
+          "Digita.Ninject.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "Microsoft.ApplicationInsights/2.14.0.17971": {
+        "runtime": {
+          "Microsoft.ApplicationInsights.dll": {
+            "assemblyVersion": "2.14.0.17971",
+            "fileVersion": "2.14.0.17971"
+          }
+        }
+      },
+      "Digita.Data.Sql.Fluent.ForSqlServer/3.0.348.0": {
+        "runtime": {
+          "Digita.Data.Sql.Fluent.ForSqlServer.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "SmartFormat/2.7.0.0": {
+        "runtime": {
+          "SmartFormat.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.0.0"
+          }
+        }
+      },
+      "EntityFramework/6.0.0.0": {
+        "runtime": {
+          "EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.61023.0"
+          }
+        }
+      },
+      "MessagePack.Annotations/2.2.0.0": {
+        "runtime": {
+          "MessagePack.Annotations.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.60.5078"
+          }
+        }
+      },
+      "CacheManager.Core/1.2.0.0": {
+        "runtime": {
+          "CacheManager.Core.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "MessagePack/2.2.0.0": {
+        "runtime": {
+          "MessagePack.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.60.5078"
+          }
+        }
+      },
+      "CacheManager.SystemRuntimeCaching/1.2.0.0": {
+        "runtime": {
+          "CacheManager.SystemRuntimeCaching.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "RtfPipe/1.0.0.0": {
+        "runtime": {
+          "RtfPipe.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ICSharpCode.NRefactory.CSharp/5.0.0.0": {
+        "runtime": {
+          "ICSharpCode.NRefactory.CSharp.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.5.1.0"
+          }
+        }
+      },
+      "ICSharpCode.NRefactory/5.0.0.0": {
+        "runtime": {
+          "ICSharpCode.NRefactory.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.5.1.0"
+          }
+        }
+      },
+      "ICSharpCode.NRefactory.Cecil/5.0.0.0": {
+        "runtime": {
+          "ICSharpCode.NRefactory.Cecil.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.5.1.0"
+          }
+        }
+      },
+      "Digita.WebApi/3.0.348.0": {
+        "runtime": {
+          "Digita.WebApi.dll": {
+            "assemblyVersion": "3.0.348.0",
+            "fileVersion": "3.0.348.0"
+          }
+        }
+      },
+      "NCrontab.Signed/3.3.2.0": {
+        "runtime": {
+          "NCrontab.Signed.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        }
+      },
+      "NodaTime/2.0.2.0": {
+        "runtime": {
+          "NodaTime.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        }
+      },
+      "RestSharp/106.6.9.0": {
+        "runtime": {
+          "RestSharp.dll": {
+            "assemblyVersion": "106.6.9.0",
+            "fileVersion": "106.6.9.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/6.6.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.10522"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/6.6.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.10522"
+          }
+        }
+      },
+      "Svg/3.0.0.0": {
+        "runtime": {
+          "Svg.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.84.6612"
+          }
+        }
+      },
+      "OAuth2/0.8.0.0": {
+        "runtime": {
+          "OAuth2.dll": {
+            "assemblyVersion": "0.8.0.0",
+            "fileVersion": "0.8.0.0"
+          }
+        }
+      },
+      "Digita.WebDav/2.0.27.0": {
+        "runtime": {
+          "Digita.WebDav.dll": {
+            "assemblyVersion": "2.0.27.0",
+            "fileVersion": "2.0.27.0"
+          }
+        }
+      },
+      "Google.Apis.Auth/1.27.1.0": {
+        "runtime": {
+          "Google.Apis.Auth.dll": {
+            "assemblyVersion": "1.27.1.0",
+            "fileVersion": "1.27.1.0"
+          }
+        }
+      },
+      "Google.GData.Contacts/2.2.0.0": {
+        "runtime": {
+          "Google.GData.Contacts.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Google.GData.Client/2.2.0.0": {
+        "runtime": {
+          "Google.GData.Client.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Google.GData.Extensions/2.2.0.0": {
+        "runtime": {
+          "Google.GData.Extensions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Google.Apis.Calendar.v3/1.27.1.894": {
+        "runtime": {
+          "Google.Apis.Calendar.v3.dll": {
+            "assemblyVersion": "1.27.1.894",
+            "fileVersion": "1.27.1.894"
+          }
+        }
+      },
+      "Microsoft.Owin.Security.Google/3.0.1.0": {
+        "runtime": {
+          "Microsoft.Owin.Security.Google.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.40213.64"
+          }
+        }
+      },
+      "Google.Apis/1.27.1.0": {
+        "runtime": {
+          "Google.Apis.dll": {
+            "assemblyVersion": "1.27.1.0",
+            "fileVersion": "1.27.1.0"
+          }
+        }
+      },
+      "Microsoft.AI.Web/2.14.0.17971": {
+        "runtime": {
+          "Microsoft.AI.Web.dll": {
+            "assemblyVersion": "2.14.0.17971",
+            "fileVersion": "2.14.0.17971"
+          }
+        }
+      },
+      "Owin/1.0.0.0": {
+        "runtime": {
+          "Owin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/3.0.1.0": {
+        "runtime": {
+          "Microsoft.Owin.Security.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.40213.64"
+          }
+        }
+      },
+      "Azure.Storage.Queues/12.3.0.0": {
+        "runtime": {
+          "Azure.Storage.Queues.dll": {
+            "assemblyVersion": "12.3.0.0",
+            "fileVersion": "12.300.20.16106"
+          }
+        }
+      },
+      "Azure.Core/1.1.0.0": {
+        "runtime": {
+          "Azure.Core.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.100.20.15607"
+          }
+        }
+      },
+      "System.Spatial/5.8.4.0": {
+        "runtime": {
+          "System.Spatial.dll": {
+            "assemblyVersion": "5.8.4.0",
+            "fileVersion": "5.8.4.63386"
+          }
+        },
+        "resources": {
+          "de/System.Spatial.resources.dll": {
+            "locale": "de"
+          },
+          "es/System.Spatial.resources.dll": {
+            "locale": "es"
+          },
+          "fr/System.Spatial.resources.dll": {
+            "locale": "fr"
+          },
+          "it/System.Spatial.resources.dll": {
+            "locale": "it"
+          },
+          "ja/System.Spatial.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/System.Spatial.resources.dll": {
+            "locale": "ko"
+          },
+          "ru/System.Spatial.resources.dll": {
+            "locale": "ru"
+          },
+          "zh-Hans/System.Spatial.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/System.Spatial.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "System.Data.HashFunction.Core/2.0.0.0": {
+        "runtime": {
+          "System.Data.HashFunction.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Pipelines.Sockets.Unofficial/1.0.0.0": {
+        "runtime": {
+          "Pipelines.Sockets.Unofficial.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.1.8.37507"
+          }
+        }
+      },
+      "System.Web.Http.Cors/5.2.4.0": {
+        "runtime": {
+          "System.Web.Http.Cors.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.60201.0"
+          }
+        }
+      },
+      "Fizzler/1.1.21209.0": {
+        "runtime": {
+          "Fizzler.dll": {
+            "assemblyVersion": "1.1.21209.0",
+            "fileVersion": "1.1.21209.917"
+          }
+        }
+      },
+      "Microsoft.AI.DependencyCollector/2.14.0.17971": {
+        "runtime": {
+          "Microsoft.AI.DependencyCollector.dll": {
+            "assemblyVersion": "2.14.0.17971",
+            "fileVersion": "2.14.0.17971"
+          }
+        }
+      },
+      "Microsoft.AspNet.TelemetryCorrelation/1.0.7.0": {
+        "runtime": {
+          "Microsoft.AspNet.TelemetryCorrelation.dll": {
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.20920.0"
+          }
+        }
+      },
+      "Azure.Storage.Common/12.3.0.0": {
+        "runtime": {
+          "Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.3.0.0",
+            "fileVersion": "12.300.20.16106"
+          }
+        }
+      },
+      "System.Web.Cors/5.2.4.0": {
+        "runtime": {
+          "System.Web.Cors.dll": {
+            "assemblyVersion": "5.2.4.0",
+            "fileVersion": "5.2.60201.0"
+          }
         }
       }
     }
@@ -16,6 +1173,660 @@
   "libraries": {
     "Create users from CSV file/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Security.Permissions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H2VFD4SFVxieywNxn9/epb63/IOcPPfA0WOtfkljzNfu7GCcHIBQNuwP6zGCEIi7Ci/oj8aLPUNK9sYImMFf4Q==",
+      "path": "system.security.permissions/9.0.0",
+      "hashPath": "system.security.permissions.9.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U9msthvnH2Fsw7xwAvIhNHOdnIjOQTwOc8Vd0oGOsiRcGMGoBFlUD6qtYawRUoQdKH9ysxesZ9juFElt1Jw/7A==",
+      "path": "system.windows.extensions/9.0.0",
+      "hashPath": "system.windows.extensions.9.0.0.nupkg.sha512"
+    },
+    "Digita.Contracts/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Base/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Core/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Database/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Interfaces/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Report/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.UI.Contracts/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.UI.Interfaces/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.UI.Utils/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Utils/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JetBrains.Annotations/11.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "log4net/2.0.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.VirtualFileSystem/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotLiquid/2.0.361.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Benchmarking/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.UI.WebControls.DomValidators/2.0.0.5": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Data.Sql.Fluent/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FastSerialize/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.TeamSystemID3/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Security/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.SignalR/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.ChangeLog/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Caching/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Router/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MimeKit/2.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.WebMail/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DistributedLock/1.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tustena.CSharpProcessor/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.TeamSystemID/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tustena.Components.Polyedro/1.2.78.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Spss/1.0.4204.20524": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DigitaPopImap/3.0.7088.26992": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MailKit/2.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Enyim.Caching/2.16.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Hammock/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dotless.Core/1.5.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.LayoutStudio/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EPPlus/4.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZedGraph/5.1.5.29136": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lucene.Net/3.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Tasking/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlAgilityPack/1.11.12.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.SqlServer.TransactSql.ScriptDom/14.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnifiedMessaging.Core/2.0.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImageProcessing/2.1.6766.20426": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ical.Net/4.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentFormat.OpenXml/2.7.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HtmlToOpenXml/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeDom.Providers.DotNetCompilerPlatform/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DigitaMailer/4.0.31.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcelNumberFormat/1.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcelDataReader/3.4.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ImageProcessor/2.7.0.100": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Agyo.Log/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Agyo.Log.Management/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.CryptoLogging/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Thought.Net.vCards/0.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "itextsharp/4.1.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IdentityModel/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Http/5.2.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/6.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/6.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OneOf/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UAParser/3.1.43.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.MailComposer/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Components.CloudConnector/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.Crypto/1.8.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Log4NetExtensions/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.WebApi.Authentication/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Net.Http/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.SignalR.Core/2.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Core/1.27.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ninject/3.3.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewRelic.Api.Agent/6.16.178.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Net.Http.Formatting/5.2.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Tustena.Tasking.Azure/20.79.2672.86": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Edm/5.8.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Http.OData/5.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.OData/5.8.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.VirtualFileSystem.Management/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.VirtualFileSystem.Configuration/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.HashFunction.xxHash/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StackExchange.Redis/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.HashFunction.Interfaces/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Ninject/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ApplicationInsights/2.14.0.17971": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.Data.Sql.Fluent.ForSqlServer/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SmartFormat/2.7.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessagePack.Annotations/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CacheManager.Core/1.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessagePack/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CacheManager.SystemRuntimeCaching/1.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RtfPipe/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.NRefactory.CSharp/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.NRefactory/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.NRefactory.Cecil/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.WebApi/3.0.348.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NCrontab.Signed/3.3.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NodaTime/2.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestSharp/106.6.9.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/6.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/6.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Svg/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OAuth2/0.8.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Digita.WebDav/2.0.27.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Auth/1.27.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.GData.Contacts/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.GData.Client/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.GData.Extensions/2.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis.Calendar.v3/1.27.1.894": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Security.Google/3.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Apis/1.27.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AI.Web/2.14.0.17971": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Owin/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Owin.Security/3.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Azure.Storage.Queues/12.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Azure.Core/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Spatial/5.8.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Data.HashFunction.Core/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pipelines.Sockets.Unofficial/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Http.Cors/5.2.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fizzler/1.1.21209.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AI.DependencyCollector/2.14.0.17971": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNet.TelemetryCorrelation/1.0.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Azure.Storage.Common/12.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Web.Cors/5.2.4.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

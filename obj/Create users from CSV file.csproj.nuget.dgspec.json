@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TeamSystem Software\\Repo\\Create users from CSV file\\Create users from CSV file.csproj": {}
+    "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj": {}
   },
   "projects": {
-    "C:\\TeamSystem Software\\Repo\\Create users from CSV file\\Create users from CSV file.csproj": {
+    "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TeamSystem Software\\Repo\\Create users from CSV file\\Create users from CSV file.csproj",
+        "projectUniqueName": "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj",
         "projectName": "Create users from CSV file",
-        "projectPath": "C:\\TeamSystem Software\\Repo\\Create users from CSV file\\Create users from CSV file.csproj",
+        "projectPath": "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj",
         "packagesPath": "C:\\Users\\b.maistro\\.nuget\\packages\\",
-        "outputPath": "C:\\TeamSystem Software\\Repo\\Create users from CSV file\\obj\\",
+        "outputPath": "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "System.Security.Permissions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

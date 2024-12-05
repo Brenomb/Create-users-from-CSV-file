@@ -8,4 +8,44 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Security.Permissions" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Digita.Contracts">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Base">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Core">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Database">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Interfaces">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.Report">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.UI.Contracts">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.UI.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.UI.Interfaces">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.UI.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Tustena.UI.Utils">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Tustena.UI.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Digita.Utils">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Digita.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\tustena\bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

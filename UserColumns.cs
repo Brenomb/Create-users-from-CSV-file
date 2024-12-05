@@ -2,7 +2,7 @@
 
 public class UserColumns
 {
-    public string? UserId { get; set; } //ID Utente
+    public string UserId { get; set; } //ID Utente
     public string? Login { get; set; } // Login
     public string? FirstName { get; set; } // Nome
     public string? LastName { get; set; } // Cognome

@@ -1,0 +1,969 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Digita.Tustena.Database</name>
+    </assembly>
+    <members>
+        <member name="T:Digita.Tustena.Database.CachedStringDataSource">
+            <summary>
+            
+            </summary>  
+        </member>
+        <member name="M:Digita.Tustena.Database.CachedStringDataSource.Invalidate(Digita.Tustena.Core.UserConfig,System.String)">
+            <summary>
+            Clear current cache region
+            </summary>
+            <param name="uc">UserConfig</param>
+            <param name="name"></param>
+        </member>
+        <member name="T:Digita.Tustena.Database.DatabaseConnection">
+            <summary>
+            Connection.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateDataReader(System.String,System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateDataReader(System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateDataReader(System.Data.SqlClient.SqlConnection,System.String,System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="conn"></param>
+            <param name="sqlString"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateDataReader(System.Data.SqlClient.SqlConnection,System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="conn"> </param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateHashSet``1(System.String,System.Func{System.Object,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access. and coverting in a list
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateHashSet``1(System.String,System.Func{System.Object,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateHashSet``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{System.Object,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="conn"></param>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateHashSet``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{System.Object,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="conn"> </param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateList``1(System.String,System.Func{System.Object,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access. and coverting in a list
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateList``1(System.String,System.Func{System.Object,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateList``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{System.Object,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="conn"></param>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateList``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{System.Object,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="conn"> </param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ReadUncommittedCreateSingleRow(System.String,System.Object[])">
+            <summary>
+            Create a RowElements from  a query optimized for a single row result
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ReadUncommittedCreateSingleRow(System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Create a RowElements from  a query optimized for a single row result
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ReadUncommittedCreateSingleRow(System.Data.SqlClient.SqlConnection,System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Create a RowElements from  a query optimized for a single row result
+            </summary>
+            <param name="sqlString"></param>
+            <param name="conn"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ReadUncommittedCreateListObject``1(System.String,System.Func{Digita.Tustena.Core.RowElements,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access. and coverting in a list
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ReadUncommittedCreateListObject``1(System.String,System.Func{Digita.Tustena.Core.RowElements,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ReadUncommittedCreateListObject``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{Digita.Tustena.Core.RowElements,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="conn"></param>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ReadUncommittedCreateListObject``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{Digita.Tustena.Core.RowElements,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="conn"> </param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateListObject``1(System.String,System.Func{Digita.Tustena.Core.RowElements,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access. and coverting in a list
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateListObject``1(System.String,System.Func{Digita.Tustena.Core.RowElements,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateListObject``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{Digita.Tustena.Core.RowElements,``0},System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="conn"></param>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="sqlParValues"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateListObject``1(System.Data.SqlClient.SqlConnection,System.String,System.Func{Digita.Tustena.Core.RowElements,``0},Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="converter">the data conversion logic</param>
+            <param name="conn"> </param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="F:Digita.Tustena.Database.DatabaseConnection.CurrentCommand._log">
+            <summary>
+            Reference to the logger
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateSingleRow(System.String,System.Object[])">
+            <summary>
+            Create a RowElements from  a query optimized for a single row result
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateSingleRow(System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Create a RowElements from  a query optimized for a single row result
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.CreateSingleRow(System.Data.SqlClient.SqlConnection,System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Create a RowElements from  a query optimized for a single row result
+            </summary>
+            <param name="sqlString"></param>
+            <param name="conn"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.DoCommand(System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="sql"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.DoCommand(System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="sql"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.DoCommandWithoutTransaction(System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="sql"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.DoCommandWithoutTransaction(System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="sql"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.DoCommandWithoutTransaction(System.Data.SqlClient.SqlConnection,System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="conn"></param>
+            <param name="sql"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.DoCommand(System.String,System.Boolean,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            
+            </summary>
+            <param name="sql"></param>
+            <param name="requireTransaction"></param>
+            <param name="sqlParams"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.FilterInjection(System.String)">
+            <summary>
+            Parse the string checking for Sql-Injections and fix apics.
+            </summary>
+            <param name="s">SqlString.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.Materialize``1(System.String,System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.Materialize``1(System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="sqlString"></param>
+            <param name="sqlParams"> </param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.Materialize``1(System.Data.SqlClient.SqlConnection,System.String,System.Object[])">
+            <summary>
+            Reader with pipeline access.
+            Use only ina foreach loop or with using!
+            </summary>
+            <param name="conn"></param>
+            <param name="sqlString"></param>
+            <param name="sqlParValues"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.SerializableSqlScalartoObj(System.String,System.Object[])">
+            <summary>
+            This method does not make use of the SqlDatabaseCache because 
+            its intent is to always open a Serializable Transaction with 
+            the db. 
+            </summary>
+            <param name="sqlQuery">The SQL statement</param>
+            <param name="sqlParValues">The eventual parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.SerializableSqlScalartoObj(System.String,Digita.Tustena.Database.DbSqlParameterCollection)">
+            <summary>
+            This method does not make use of the SqlDatabaseCache because 
+            its intent is to always open a Serializable Transaction with 
+            the db. 
+            </summary>
+            <param name="sqlQuery">The SQL statement</param>
+            <param name="sqlParValues">The eventual parameters</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ThreadContextStart">
+            <summary>
+            [TO USE INSIDE THREAD]
+            Initialize the DatabaseConnection to work wit TustenaDB inside a Thread or a ThreadPool, so without HttpContext
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ThreadContextRollback">
+            <summary>
+            [TO USE INSIDE THREAD]
+            Rollback the current transaction and close the connection
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ThreadContextCommitAndContinue">
+            <summary>
+            [TO USE INSIDE THREAD]
+            Commit the current transaction and open another one
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseConnection.ThreadContextCommit">
+            <summary>
+            [TO USE INSIDE THREAD]
+            Commit the current transaction and close the connection
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DatabaseConnection.IsFullTextInstalled">
+            <summary>
+            If there is the Full-Text search Enabled
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Database.DatabaseTruncateException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DatabaseTruncateException.#ctor(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="columnName"></param>
+            <param name="table"></param>
+            <param name="value"></param>
+            <param name="maxLength"></param>
+        </member>
+        <member name="P:Digita.Tustena.Database.DbSqlParameter.NormalizeNullValue">
+            <summary>
+            If true, convert NULL values to DbNull.Value
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Database.DbSqlParameterCollection">
+            <summary>
+            Array of parameters for parametrized queries
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DbSqlParameterCollection.DbSqlParameters">
+            <summary>
+            Gets the DbSqlParameter array.
+            </summary>
+            <value>The parameters.</value>
+        </member>
+        <member name="P:Digita.Tustena.Database.DbSqlParameterCollection.SqlParameters">
+            <summary>
+            Gets the SqlParameter array.
+            </summary>
+            <value>The parameters.</value>
+        </member>
+        <member name="M:Digita.Tustena.Database.DbSqlParameterCollection.Add(System.Object)">
+            <summary>
+            Adds the specified DbSqlParameter.
+            </summary>
+            <param name="p">The DbSqlParameter.</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DbSqlParameterCollection.Add(Digita.Tustena.Database.DbSqlParameter)">
+            <summary>
+            Adds the specified DbSqlParameter.
+            </summary>
+            <param name="p">The DbSqlParameter.</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DbSqlParameterCollection.AddRange(Digita.Tustena.Database.DbSqlParameter[])">
+            <summary>
+            Adds a range of DbSqlParameter.
+            </summary>
+            <param name="pa">The DbSqlParameter.</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DbSqlParameterCollection.AddValues(System.Object[])">
+            <summary>
+            Adds the DbSqlParameter as values mapped to @P0,@P1, and convert NULL values to DBNull.Value
+            </summary>
+            <param name="sqlParValues">The object values.</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DbSqlParameterCollection.AddNullableValues(System.Object[])">
+            <summary>
+            Adds the DbSqlParameter as values mapped to @P0,@P1, and convert NULL values to DBNull.Value
+            </summary>
+            <param name="sqlParValues">The object values.</param>
+        </member>
+        <member name="T:Digita.Tustena.Database.DigiDapter">
+            <summary>
+            DataAdapter Replacement by Digita
+            </summary>
+        </member>
+        <member name="T:Digita.Tustena.Database.DigiDapter.Identities">
+            <summary>
+            Cosa deve restituire il digidapter
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.#ctor">
+            <summary>
+            DigiDapter the Tustena dynamic DataAdapter replacement
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.#ctor(System.Data.SqlClient.SqlConnection)">
+            <summary>
+            DigiDapter the Tustena dynamic DataAdapter replacement
+            </summary>
+            <param name="connection">Alternative connection string to use</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.#ctor(System.Boolean)">
+            <summary>
+            DigiDapter the Tustena dynamic DataAdapter replacement
+            </summary>
+            <param name="needTransaction">without transaction</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.#ctor(System.String)">
+            <summary>
+            DigiDapter the Tustena dynamic DataAdapter replacement
+            </summary>
+            <param name="directQuery">Execute the query immediatly in order to access the datarow later with externalreader object</param>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.RecordInserted">
+            <summary>
+            Record inserted?
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.RecordUpdated">
+            <summary>
+            Record updated?
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.IdentityMode">
+            <summary>
+            Return request type: None, Identity, Row.
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.RetObj">
+            <summary>
+            L'oggetto restituito, il suo tipo dipende da IdentityMode
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.Where">
+            <summary>
+            La condizione where. def: id=-1
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.ExternalReaderRowId">
+            <summary>
+            Restituisce il promo valore del reader, di solito l'id da utilizzare nella condizione. 
+            Se non  valido restituisce -1
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.GetOriginalRow">
+            <summary>
+            Restituisce la DataRow prima della modifica. Funziona quando identity=row.
+            </summary>
+        </member>
+        <member name="P:Digita.Tustena.Database.DigiDapter.GetNewRow">
+            <summary>
+            Restituisce la DataRow appena aggiornata. Funziona quando identity=row.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Add(System.String,System.Object,Digita.Tustena.Database.DigiDapter.AddMode,System.Boolean)">
+            <summary>
+            Aggiunge un valore al digidapter e lascia scegliere al sistema se Update o Insert
+            </summary>
+            <param name="key">Chiave di inserimento</param>
+            <param name="val">Valore da inserire</param>
+            <param name="trim"></param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.AddOrNull(System.String,System.Object,Digita.Tustena.Database.DigiDapter.AddMode,System.Boolean,System.Func{System.Object,System.Boolean})">
+            <summary>
+            Aggiunge un valore al digidapter e lascia scegliere al sistema se Update o Insert
+            </summary>
+            <param name="key">Chiave di inserimento</param>
+            <param name="val">Valore da inserire</param>
+            <param name="mode"></param>
+            <param name="trim"></param>
+            <param name="insertDbNull"></param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Add(System.String,System.Object,System.Int32,Digita.Tustena.Database.DigiDapter.AddMode,System.Boolean)">
+            <summary>
+            Aggiunge un valore al digidapter con un limite di dimensione dopo il quale troca
+            </summary>
+            <param name="key">Chiave di inserimento</param>
+            <param name="val">Valore da inserire</param>
+            <param name="maxSize">Dimensione massima</param>
+            <param name="mode"></param>
+            <param name="trim"></param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.InsertOnly">
+            <summary>
+            I record devono solo essere inseriti
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.UpdateOnly">
+            <summary>
+            I record devono solo essere aggiornati
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(System.String)">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(System.String,System.String)">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <param name="where">La condizione where. def: id=-1</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(System.String,Digita.Tustena.Database.DigiDapter.Identities)">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <param name="identityMode">Cosa deve restituire: None, Identity, Row</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(System.String,System.String,Digita.Tustena.Database.DigiDapter.Identities)">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <param name="where">La condizione where. def: id=-1</param>
+            <param name="identityMode">Cosa deve restituire: None, Identity, Row</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(System.String,System.String,Digita.Tustena.Database.DigiDapter.Identities,System.Boolean)">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <param name="where">La condizione where. def: id=-1</param>
+            <param name="identityMode">Cosa deve restituire: None, Identity, Row</param>
+            <param name="emptyCurrentColumnLengthCache">Se true forza la rimozione della dimensione della colonna corrente dalla cache del TruncateColumnsHelper</param>
+            <returns></returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(Digita.Tustena.Database.DigiDapter.Identities,System.String,System.String,System.Object[])">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="identityMode">Cosa deve restituire: None, Identity, Row</param>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <param name="where">La condizione where. def: id=-1</param>        
+            <param name="filterParam">Parametri opzionali di query</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(Digita.Tustena.Database.DigiDapter.Identities,System.String,System.String,System.Boolean,System.Object[])">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="identityMode">Cosa deve restituire: None, Identity, Row</param>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <param name="where">La condizione where. def: id=-1</param>      
+            <param name="emptyCurrentColumnLengthCache">Se true forza la rimozione della dimensione della colonna corrente dalla cache del TruncateColumnsHelper</param>
+            <param name="filterParam">Parametri opzionali di query</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.DigiDapter.Execute(System.String,System.String,System.Collections.Generic.ICollection{Digita.Tustena.Database.DigiDapter.FieldsAndValues},Digita.Tustena.Database.DigiDapter.Identities,System.Boolean,System.Object[])">
+            <summary>
+            Esegue l'inserimento del nuovo record
+            </summary>
+            <param name="table">La tabella del database su cui eseguire</param>
+            <param name="where">La condizione where. def: id=-1</param>
+            <param name="execParameters">I parametri passati sotto forma di queue. es: myqueue.Enqueue(new FieldsAndValues(key, val, mode))</param>
+            <param name="identityMode">Cosa deve restituire: None, Identity, Row</param>
+            <param name="filterParam">the execParameters for the digidapter query. Always @P0,@P1,@P2</param>
+            <returns></returns>
+        </member>
+        <member name="T:Digita.Tustena.Database.DataManipulation">
+            <summary>
+            LocalDataManagement.
+            </summary>
+        </member>
+        <member name="M:Digita.Tustena.Database.DataManipulation.JoinTableByID(System.Data.DataTable,System.Data.DataTable,System.String,System.String,System.Boolean)">
+            <summary>
+            Join first table to second.
+            </summary>
+            <param name="first"></param>
+            <param name="second"></param>
+            <param name="firstColumnID"></param>
+            <param name="secondColumnID"></param>
+            <param name="firstmatch">take only teh first matching row</param>
+        </member>
+        <member name="M:Digita.Tustena.Database.TransactionContextDescriptor.#ctor(System.Data.SqlClient.SqlConnection,System.Data.SqlClient.SqlTransaction)">
+            <summary>
+              Initializes a new instance of the <see cref="T:Digita.Tustena.Database.TransactionContextDescriptor" /> class.
+            </summary>
+            <param name="connection">The connection.</param>
+            <param name="transaction">The transaction.</param>
+        </member>
+        <member name="P:Digita.Tustena.Database.TransactionContextDescriptor.Connection">
+            <summary>
+              Gets the connection.
+            </summary>
+            <value>
+              The connection.
+            </value>
+        </member>
+        <member name="P:Digita.Tustena.Database.TransactionContextDescriptor.Transaction">
+            <summary>
+              Gets the transaction.
+            </summary>
+            <value>
+              The transaction.
+            </value>
+        </member>
+        <member name="M:Digita.Tustena.Database.Utils.DatabaseExtensions.ConvertToSqlDbType(System.String,System.Data.SqlDbType)">
+            <summary>
+              Converts the type of to SQL db.
+            </summary>
+            <param name="sourceValue"> The source value. </param>
+            <param name="sqlDbType"> Type of the SQL db. </param>
+            <returns> </returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.Utils.DatabaseExtensions.GetDbType(System.Object)">
+            <summary>
+              Gets the type of the db.
+            </summary>
+            <param name="val"> The val. </param>
+            <returns> </returns>
+        </member>
+        <member name="M:Digita.Tustena.Database.Utils.DatabaseExtensions.GetSqlDbType(System.Object)">
+            <summary>
+              Gets the type of the db.
+            </summary>
+            <param name="val"> The val. </param>
+            <returns> </returns>
+        </member>
+        <member name="T:PagedList.BasePagedList`1">
+            <summary>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </summary>
+            <remarks>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </remarks>
+            <typeparam name="T">The type of object the collection should contain.</typeparam>
+            <seealso cref="T:PagedList.IPagedList`1"/>
+            <seealso cref="T:System.Collections.Generic.List`1"/>
+        </member>
+        <member name="M:PagedList.BasePagedList`1.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of a type deriving from <see cref="T:PagedList.BasePagedList`1"/> and sets properties needed to calculate position and size data on the subset and superset.
+            </summary>
+            <param name="index">The index of the subset of objects contained by this instance.</param>
+            <param name="pageSize">The maximum size of any individual subset.</param>
+            <param name="totalItemCount">The size of the superset.</param>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.PageCount">
+            <summary>
+            Total number of subsets within the superset.
+            </summary>
+            <value>
+            Total number of subsets within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.TotalItemCount">
+            <summary>
+            Total number of objects contained within the superset.
+            </summary>
+            <value>
+            Total number of objects contained within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.PageIndex">
+            <summary>
+            Zero-based index of this subset within the superset.
+            </summary>
+            <value>
+            Zero-based index of this subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.PageNumber">
+            <summary>
+            One-based index of this subset within the superset.
+            </summary>
+            <value>
+            One-based index of this subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.PageSize">
+            <summary>
+            Maximum size any individual subset.
+            </summary>
+            <value>
+            Maximum size any individual subset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.HasPreviousPage">
+            <summary>
+            Returns true if this is NOT the first subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is NOT the first subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.HasNextPage">
+            <summary>
+            Returns true if this is NOT the last subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is NOT the last subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.IsFirstPage">
+            <summary>
+            Returns true if this is the first subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is the first subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.BasePagedList`1.IsLastPage">
+            <summary>
+            Returns true if this is the last subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is the last subset within the superset.
+            </value>
+        </member>
+        <member name="T:PagedList.IPagedList`1">
+            <summary>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </summary>
+            <remarks>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </remarks>
+            <typeparam name="T">The type of object the collection should contain.</typeparam>
+            <seealso cref="T:System.Collections.Generic.IList`1"/>
+        </member>
+        <member name="P:PagedList.IPagedList`1.PageCount">
+            <summary>
+            Total number of subsets within the superset.
+            </summary>
+            <value>
+            Total number of subsets within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.TotalItemCount">
+            <summary>
+            Total number of objects contained within the superset.
+            </summary>
+            <value>
+            Total number of objects contained within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.PageIndex">
+            <summary>
+            Zero-based index of this subset within the superset.
+            </summary>
+            <value>
+            Zero-based index of this subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.PageNumber">
+            <summary>
+            One-based index of this subset within the superset.
+            </summary>
+            <value>
+            One-based index of this subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.PageSize">
+            <summary>
+            Maximum size any individual subset.
+            </summary>
+            <value>
+            Maximum size any individual subset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.HasPreviousPage">
+            <summary>
+            Returns true if this is NOT the first subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is NOT the first subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.HasNextPage">
+            <summary>
+            Returns true if this is NOT the last subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is NOT the last subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.IsFirstPage">
+            <summary>
+            Returns true if this is the first subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is the first subset within the superset.
+            </value>
+        </member>
+        <member name="P:PagedList.IPagedList`1.IsLastPage">
+            <summary>
+            Returns true if this is the last subset within the superset.
+            </summary>
+            <value>
+            Returns true if this is the last subset within the superset.
+            </value>
+        </member>
+        <member name="T:PagedList.PagedList`1">
+            <summary>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </summary>
+            <remarks>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </remarks>
+            <typeparam name="T">The type of object the collection should contain.</typeparam>
+            <seealso cref="T:PagedList.IPagedList`1"/>
+            <seealso cref="T:PagedList.BasePagedList`1"/>
+            <seealso cref="T:PagedList.StaticPagedList`1"/>
+            <seealso cref="T:System.Collections.Generic.List`1"/>
+        </member>
+        <member name="M:PagedList.PagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PagedList.PagedList`1"/> class that divides the supplied superset into subsets the size of the supplied pageSize. The instance then only containes the objects contained in the subset specified by index.
+            </summary>
+            <param name="superset">The collection of objects to be divided into subsets. If the collection implements <see cref="T:System.Linq.IQueryable`1"/>, it will be treated as such.</param>
+            <param name="index">The index of the subset of objects to be contained by this instance.</param>
+            <param name="pageSize">The maximum size of any individual subset.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">The specified index cannot be less than zero.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">The specified page size cannot be less than one.</exception>
+        </member>
+        <member name="T:PagedList.PagedListExtensions">
+            <summary>
+            Container for extension methods designed to simplify the creation of instances of <see cref="T:PagedList.PagedList`1"/>.
+            </summary>
+            <remarks>
+            Container for extension methods designed to simplify the creation of instances of <see cref="T:PagedList.PagedList`1"/>.
+            </remarks>
+        </member>
+        <member name="M:PagedList.PagedListExtensions.ToPagedList``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)">
+            <summary>
+            Creates a subset of this collection of objects that can be individually accessed by index and containing metadata about the collection of objects the subset was created from.
+            </summary>
+            <typeparam name="T">The type of object the collection should contain.</typeparam>
+            <param name="superset">The collection of objects to be divided into subsets. If the collection implements <see cref="T:System.Linq.IQueryable`1"/>, it will be treated as such.</param>
+            <param name="index">The index of the subset of objects to be contained by this instance.</param>
+            <param name="pageSize">The maximum size of any individual subset.</param>
+            <returns>A subset of this collection of objects that can be individually accessed by index and containing metadata about the collection of objects the subset was created from.</returns>
+            <seealso cref="T:PagedList.PagedList`1"/>
+        </member>
+        <member name="T:PagedList.StaticPagedList`1">
+            <summary>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </summary>
+            <remarks>
+            Represents a subset of a collection of objects that can be individually accessed by index and containing metadata about the superset collection of objects this subset was created from.
+            </remarks>
+            <typeparam name="T">The type of object the collection should contain.</typeparam>
+            <seealso cref="T:PagedList.IPagedList`1"/>
+            <seealso cref="T:PagedList.BasePagedList`1"/>
+            <seealso cref="T:PagedList.PagedList`1"/>
+            <seealso cref="T:System.Collections.Generic.List`1"/>
+        </member>
+        <member name="M:PagedList.StaticPagedList`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:PagedList.StaticPagedList`1"/> class that contains the already divided subset and information about the size of the superset and the subset's position within it.
+            </summary>
+            <param name="subset">The single subset this collection should represent.</param>
+            <param name="index">The index of the subset of objects contained by this instance.</param>
+            <param name="pageSize">The maximum size of any individual subset.</param>
+            <param name="totalItemCount">The size of the superset.</param>
+            <exception cref="T:System.ArgumentOutOfRangeException">The specified index cannot be less than zero.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">The specified page size cannot be less than one.</exception>
+        </member>
+    </members>
+</doc>
