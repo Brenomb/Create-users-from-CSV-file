@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Create users from CSV file")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+63e18da02667b9124146e9657a98fdd8c622f82e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f0bde1ebec4e4972c43995f17ef2e1ff562a9e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Create users from CSV file")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Create users from CSV file")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

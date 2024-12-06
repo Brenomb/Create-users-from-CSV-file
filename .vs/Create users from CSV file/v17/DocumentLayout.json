@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\reorder_csv.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:reorder_csv.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\v1\\searches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:v1\\searches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\getcsvfromapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:getcsvfromapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\insertintocrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:insertintocrm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\v1\\updatecompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:v1\\updatecompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\usercolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:usercolumns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\v1\\createcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:v1\\createcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\v1\\searches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:v1\\searches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\v1\\updatecompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:v1\\updatecompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\v1\\createcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:v1\\createcompany.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,14 +79,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAACpAAAAAAAAAA==",
+              "Title": "reorder_csv.py",
+              "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\reorder_csv.py",
+              "RelativeDocumentMoniker": "reorder_csv.py",
+              "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\reorder_csv.py",
+              "RelativeToolTip": "reorder_csv.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-12-06T09:05:43.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetCsvFromApi.cs",
+              "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\GetCsvFromApi.cs",
+              "RelativeDocumentMoniker": "GetCsvFromApi.cs",
+              "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\GetCsvFromApi.cs",
+              "RelativeToolTip": "GetCsvFromApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T14:10:31.665Z",
+              "WhenOpened": "2024-12-06T09:03:19.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Searches.cs",
+              "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\Searches.cs",
+              "RelativeDocumentMoniker": "v1\\Searches.cs",
+              "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\Searches.cs",
+              "RelativeToolTip": "v1\\Searches.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T08:29:31.063Z",
               "EditorCaption": ""
             },
             {
@@ -93,69 +123,62 @@
               "RelativeDocumentMoniker": "Utils.cs",
               "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\Utils.cs",
               "RelativeToolTip": "Utils.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAIAwwLwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:36:04.944Z"
+              "WhenOpened": "2024-12-06T08:07:24.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T14:10:31.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UpdateCompany.cs",
               "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\UpdateCompany.cs",
               "RelativeDocumentMoniker": "v1\\UpdateCompany.cs",
               "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\UpdateCompany.cs",
               "RelativeToolTip": "v1\\UpdateCompany.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T13:18:17.245Z"
+              "WhenOpened": "2024-12-05T15:31:44.791Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "CreateCompany.cs",
               "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\CreateCompany.cs",
               "RelativeDocumentMoniker": "v1\\CreateCompany.cs",
               "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\CreateCompany.cs",
               "RelativeToolTip": "v1\\CreateCompany.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T16:15:30.898Z"
+              "WhenOpened": "2024-12-04T16:15:30.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserColumns.cs",
-              "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\UserColumns.cs",
-              "RelativeDocumentMoniker": "UserColumns.cs",
-              "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\UserColumns.cs",
-              "RelativeToolTip": "UserColumns.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T10:29:09.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Searches.cs",
-              "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\Searches.cs",
-              "RelativeDocumentMoniker": "v1\\Searches.cs",
-              "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\Searches.cs",
-              "RelativeToolTip": "v1\\Searches.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwBMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T08:10:45.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "InsertIntoCRM.cs",
               "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\InsertIntoCRM.cs",
               "RelativeDocumentMoniker": "InsertIntoCRM.cs",
               "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\InsertIntoCRM.cs",
               "RelativeToolTip": "InsertIntoCRM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T15:29:51.856Z"
+              "WhenOpened": "2024-12-04T15:29:51.856Z",
+              "EditorCaption": ""
             }
           ]
         },

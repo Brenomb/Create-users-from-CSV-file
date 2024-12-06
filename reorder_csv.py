@@ -12,6 +12,12 @@ def reorder_csv(input_file, output_file, desired_columns):
         print(f"Reading input file: {input_file}")
         df = pd.read_csv(input_file, delimiter=';')
 
+        # Replace spaces in column names with underscores
+        df.columns = df.columns.str.replace(' ', '_')
+
+        # Convert desired columns to use underscores as well
+        desired_columns = [col.replace(' ', '_') for col in desired_columns]
+
         # Reorder and select desired columns
         df = df[desired_columns]
 

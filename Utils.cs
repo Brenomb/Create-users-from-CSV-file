@@ -17,7 +17,7 @@ namespace Create_users_from_CSV_file
         public const string Username = "admin@admin.com";
         public const string Password = "admin";
         public const string TustenaAuthToken = "Authorization"; // old token header key name (used in pre-JWT authentication): "TustenaAuthToken"
-        public const string TustenaWebApiKey = "60815tmro3.NQbpcSj5DGvRbwgh8BPqIGOZg3bdk02TufHqylU";
+        public const string TustenaWebApiKey = "";
 
         #endregion
 
@@ -191,7 +191,7 @@ namespace Create_users_from_CSV_file
             HttpWebRequest httpWebRequest = Utils.GetHttpWebRequest(20000,
                 Utils.TustenaWebAPiBaseUrl,
                 "latest",
-                $"Company/Search");
+                $"Company/Search?field=FF_VIC_ID_UTENTE&value={userId}&comparator=Equals");
             httpWebRequest.Method = "GET";
             httpWebRequest.Accept = "application/json";
 

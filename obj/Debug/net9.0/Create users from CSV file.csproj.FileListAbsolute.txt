@@ -289,3 +289,4 @@ C:\Users\b.maistro\source\repos\Create-users-from-CSV-file\obj\Debug\net9.0\ref\
 C:\Users\b.maistro\Source\Repos\Create-users-from-CSV-file\bin\Debug\net9.0\System.Security.Permissions.dll
 C:\Users\b.maistro\Source\Repos\Create-users-from-CSV-file\bin\Debug\net9.0\System.Windows.Extensions.dll
 C:\Users\b.maistro\Source\Repos\Create-users-from-CSV-file\bin\Debug\net9.0\runtimes\win\lib\net9.0\System.Windows.Extensions.dll
+C:\Users\b.maistro\Source\Repos\Create-users-from-CSV-file\obj\Debug\net9.0\Create users from CSV file.sourcelink.json

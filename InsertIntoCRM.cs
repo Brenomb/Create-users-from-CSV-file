@@ -25,6 +25,7 @@ namespace Create_users_from_CSV_file
                     {
                         long companyId = Utils.RetrieveCompanyID(user.UserId);
                         v1.UpdateCompany.ModifyCompany(companyId, user);
+                        Console.WriteLine($"Successfully updated user {user.UserId}.");
                     }
                 }
                 catch (Exception ex)

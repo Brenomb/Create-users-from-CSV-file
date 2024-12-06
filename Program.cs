@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net;
+using System.Text;
 
 namespace Create_users_from_CSV_file;
 class Program
@@ -7,7 +9,12 @@ class Program
     {
         try
         {
-            // Step 1: Run Python Script to Clean the CSV
+            // Step 1: Download CSV File
+            string csvUrl = "https://api.com";
+            string downloadPath = @"C:\Users...";
+            GetCsvFromApi.DownloadCsvFile(csvUrl, downloadPath);
+
+            // Step 2: Run Python Script to Clean the CSV
             PythonIntegration pythonIntegration = new PythonIntegration();
 
             string pythonPath = Environment.GetEnvironmentVariable("PYTHON_PATH") ?? throw new InvalidOperationException("PYTHON_PATH environment variable is not set.");
@@ -16,18 +23,18 @@ class Program
             string outputFile = Environment.GetEnvironmentVariable("OUTPUT_FILE") ?? throw new InvalidOperationException("OUTPUT_FILE environment variable is not set.");
 
             // Desired columns in order
-            string[] desiredColumns = { "ID_Utente", "Login", "Nome", "Cognome", "E-mail", "Codice_Fiscale", "Cellulare", "Indirizzo", "Città", "Codice_Postale", "Paese", "Provincia", "Regione" };
+            string[] desiredColumns = { "ID Utente", "Login", "Nome", "Cognome", "E-mail", "Codice Fiscale", "Cellulare", "Indirizzo", "Città", "Codice Postale", "Paese", "Provincia", "Regione" };
 
             Console.WriteLine("Running Python script to clean CSV...");
             pythonIntegration.RunPythonScript(pythonPath, scriptPath, inputFile, outputFile, desiredColumns);
             Console.WriteLine("Python script completed.");
 
-            // Step 2: Read the Cleaned CSV File
+            // Step 3: Read the Cleaned CSV File
             ReadCSV csvReader = new ReadCSV();
             Console.WriteLine("Reading cleaned CSV...");
             List<UserColumns> users = csvReader.ReadCSVFile(outputFile);
 
-            // Step 3: Insert Data into CRM
+            // Step 4: Insert Data into CRM
             InsertIntoCRM crmInserter = new InsertIntoCRM();
             Console.WriteLine("Inserting users into CRM...");
             crmInserter.InsertUsersIntoCRM(users);
