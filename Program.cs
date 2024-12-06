@@ -22,8 +22,13 @@ class Program
             string inputFile = Environment.GetEnvironmentVariable("INPUT_FILE") ?? throw new InvalidOperationException("INPUT_FILE environment variable is not set.");
             string outputFile = Environment.GetEnvironmentVariable("OUTPUT_FILE") ?? throw new InvalidOperationException("OUTPUT_FILE environment variable is not set.");
 
+
             // Desired columns in order
             string[] desiredColumns = { "ID Utente", "Login", "Nome", "Cognome", "E-mail", "Codice Fiscale", "Cellulare", "Indirizzo", "Città", "Codice Postale", "Paese", "Provincia", "Regione" };
+            for (int i = 0; i < desiredColumns.Length; i++)
+            {
+                desiredColumns[i] = desiredColumns[i].Replace(" ", "_");
+            }
 
             Console.WriteLine("Running Python script to clean CSV...");
             pythonIntegration.RunPythonScript(pythonPath, scriptPath, inputFile, outputFile, desiredColumns);

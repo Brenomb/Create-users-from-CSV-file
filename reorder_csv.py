@@ -4,26 +4,27 @@ import sys
 
 def reorder_csv(input_file, output_file, desired_columns):
     try:
-        # Check if output file exists, and notify if it will be created
-        if not os.path.exists(output_file):
-            print(f"Output file does not exist and will be created: {output_file}")
+        # Normalize the header in the CSV file
+        with open(input_file, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
 
-        # Read the input CSV file
+        # Replace spaces with underscores and strip headers
+        lines[0] = ";".join([header.strip().replace(" ", "_") for header in lines[0].split(";")])
+
+        with open(input_file, 'w', encoding='utf-8') as f:
+            f.writelines(lines)
+
+        # Read the processed CSV file
         print(f"Reading input file: {input_file}")
         df = pd.read_csv(input_file, delimiter=';')
-
-        # Replace spaces in column names with underscores
-        df.columns = df.columns.str.replace(' ', '_')
-
-        # Convert desired columns to use underscores as well
-        desired_columns = [col.replace(' ', '_') for col in desired_columns]
 
         # Reorder and select desired columns
         df = df[desired_columns]
 
-        # Write the reordered columns to the output file
+        #Write output file
         df.to_csv(output_file, index=False, sep=';')
         print(f"Reordered CSV written to: {output_file}")
+
     except FileNotFoundError as e:
         print(f"Error: Input file not found: {e}")
     except KeyError as e:
@@ -32,12 +33,9 @@ def reorder_csv(input_file, output_file, desired_columns):
         print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    # Accept arguments from C#
+    # Example usage: Pass input_file, output_file, and desired_columns from C#
     input_file = sys.argv[1]
     output_file = sys.argv[2]
-    desired_columns = sys.argv[3:]
+    desired_columns = sys.argv[3:]  # These should already be normalized by C#
 
     reorder_csv(input_file, output_file, desired_columns)
-
-# Example usage
-#desired_columns = ["ID Utente", "Login", "Nome", "Cognome", "Email", "Codice Fiscale", "Cellulare", "Indirizzo", "Città", "Codice Postale", "Paese", "Provincia", "Regione"]

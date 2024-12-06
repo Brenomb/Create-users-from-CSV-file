@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj": {}
+    "c:\\TeamSystem Software\\Repo\\Create-users-from-CSV-file\\Create users from CSV file.csproj": {}
   },
   "projects": {
-    "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj": {
+    "c:\\TeamSystem Software\\Repo\\Create-users-from-CSV-file\\Create users from CSV file.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj",
+        "projectUniqueName": "c:\\TeamSystem Software\\Repo\\Create-users-from-CSV-file\\Create users from CSV file.csproj",
         "projectName": "Create users from CSV file",
-        "projectPath": "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\Create users from CSV file.csproj",
+        "projectPath": "c:\\TeamSystem Software\\Repo\\Create-users-from-CSV-file\\Create users from CSV file.csproj",
         "packagesPath": "C:\\Users\\b.maistro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\b.maistro\\Source\\Repos\\Create-users-from-CSV-file\\obj\\",
+        "outputPath": "c:\\TeamSystem Software\\Repo\\Create-users-from-CSV-file\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
