@@ -187,11 +187,11 @@ namespace Create_users_from_CSV_file
 
         public static long RetrieveCompanyID(string userId)
         {
-            //http://localhost:82/api/latest/Company/Search?field=CompanyName&value=Ferrari&comparator=Equals
+            //http://localhost:82/api/latest/Company/Search?$select=FF_VIC_ID_UTENTE&$filter=FF_VIC_ID_UTENTE eq '666'
             HttpWebRequest httpWebRequest = Utils.GetHttpWebRequest(20000,
                 Utils.TustenaWebAPiBaseUrl,
                 "latest",
-                $"Company/Search?field=FF_VIC_ID_UTENTE&value={userId}&comparator=Equals");
+                $"Company/Search?select=id&$filter=FF_VIC_ID_UTENTE eq '{userId}'");
             httpWebRequest.Method = "GET";
             httpWebRequest.Accept = "application/json";
 
@@ -202,10 +202,9 @@ namespace Create_users_from_CSV_file
 
             string serializedJsonResponse = new StreamReader(response.GetResponseStream()).ReadToEnd();
 
-            var companies = JsonConvert.DeserializeObject<List<dynamic>>(serializedJsonResponse);
-            var matchingCompany = companies.FirstOrDefault(c => c.FF_VIC_ID_UTENTE == userId);
+            var company = JsonConvert.DeserializeObject<List<dynamic>>(serializedJsonResponse);
 
-            return matchingCompany.id;
+            return company[0].id;
         }
     }
 }
