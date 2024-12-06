@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\reorder_csv.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:reorder_csv.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\v1\\searches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:v1\\searches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\reorder_csv.py||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|solutionrelative:reorder_csv.py||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07EC98C5-C437-4559-BDA5-4DF780B03D0B}|Create users from CSV file.csproj|c:\\users\\b.maistro\\source\\repos\\create-users-from-csv-file\\getcsvfromapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,13 +78,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "reorder_csv.py",
               "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\reorder_csv.py",
               "RelativeDocumentMoniker": "reorder_csv.py",
               "ToolTip": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\reorder_csv.py",
               "RelativeToolTip": "reorder_csv.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2024-12-06T09:05:43.336Z",
               "EditorCaption": ""
@@ -104,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Searches.cs",
               "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\v1\\Searches.cs",
               "RelativeDocumentMoniker": "v1\\Searches.cs",
@@ -130,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\b.maistro\\source\\repos\\Create-users-from-CSV-file\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
